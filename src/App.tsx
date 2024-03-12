@@ -1,16 +1,22 @@
-import HyunsLogo from "@/assets/hyuns.png";
+import { RecoilRoot } from "recoil";
+import { TooltipProvider } from "./components/ui/tooltip";
+import { BrowserRouter } from "react-router-dom";
+import { MainRouter } from "./router";
+import { Toaster } from "./components/ui/sonner";
+import { ThemeProvider } from "./components/themeProvider";
 
 function App() {
   return (
-    <div className="w-[100dvw] h-[100dvh] flex items-center justify-center bg-background">
-      <div className="flex flex-col justify-start items-center gap-3">
-        <img src={HyunsLogo} className="size-[64px] rounded-full" alt="" />
-        <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-          hyuns.space
-        </code>
-        <div className="">현우공간</div>
-      </div>
-    </div>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <RecoilRoot>
+        <TooltipProvider delayDuration={400}>
+          <BrowserRouter>
+            <MainRouter />
+          </BrowserRouter>
+          <Toaster />
+        </TooltipProvider>
+      </RecoilRoot>
+    </ThemeProvider>
   );
 }
 
