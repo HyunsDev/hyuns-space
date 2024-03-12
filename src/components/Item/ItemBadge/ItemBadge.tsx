@@ -3,7 +3,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ItemBadge } from "@/data/items/item.type";
+import type { ItemBadge } from "@/data/items/item.type";
 import { cn } from "@/libs/utils";
 import { itemBadgeText } from "@/utils/itemBadgeText";
 
