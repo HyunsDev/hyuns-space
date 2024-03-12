@@ -40,7 +40,7 @@ export function ItemCard({
             className="rounded-t-lg"
           />
         </div>
-        <div className="flex items-center gap-2 px-4 py-2 mt-2">
+        <div className="flex items-center gap-2 px-4 py-1 mt-2">
           {item.logoImage && (
             <img
               src={item.logoImage}

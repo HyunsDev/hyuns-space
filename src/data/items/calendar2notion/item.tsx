@@ -9,5 +9,8 @@ export const Calendar2notionItem: Item = {
   logoImage: "/items/calendar2notion/logo.png",
   tags: ["React", "TypeScript", "Notion API"],
   badges: ["isHot"],
-  url: "https://calendar2notion.com",
+  url: "https://calendar2notion.opize.me",
+  urls: ["https://calendar2notion.opize.me"],
+  period: "2021.08 ~ 2024.03",
+  updatedAt: "2024-03-13",
 };

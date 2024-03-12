@@ -18,8 +18,6 @@ export function BottomShadow({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  console.log(currentTheme);
-
   return (
     <div
       className={cn(

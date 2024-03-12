@@ -12,4 +12,7 @@ export interface Item {
   tags: string[];
   badges?: ItemBadge[];
   url?: string;
+  urls?: string[];
+  updatedAt: string;
+  period: string;
 }

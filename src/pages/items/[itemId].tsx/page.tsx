@@ -32,7 +32,31 @@ function PageDescription({ item }: { item: Item }) {
         )}
         <div className="font-medium text-4xl">{item.name}</div>
       </div>
-      <div className="text text-gray-400">{item.description}</div>
+      <div className="flex flex-col gap-2">
+        <div className="text text-muted-foreground">{item.description}</div>
+        <div className="flex flex-col gap-1 text-muted-foreground text-sm">
+          <div className="flex justify-between">
+            <span>활동기간</span>
+            <span>{item.period}</span>
+          </div>
+          <div className="flex justify-between">
+            <span>내용 업데이트</span>
+            <span>{item.updatedAt}</span>
+          </div>
+          {item.urls && (
+            <div className="flex justify-between">
+              <span>링크</span>
+              <div className="flex flex-col items-end">
+                {item.urls.map((url, index) => (
+                  <a href={url} key={index} className="underline">
+                    {url}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
       <div className="flex gap-2">
         {item.badges?.map((badge, index) => (
           <ItemBadge key={index} badge={badge} />
@@ -44,7 +68,7 @@ function PageDescription({ item }: { item: Item }) {
 
 function PageContent({ item }: { item: Item }) {
   return (
-    <div className="">
+    <div className="py-4">
       <div className="markdown">
         <Markdown>{item.content}</Markdown>
       </div>
@@ -71,9 +95,12 @@ export function ItemPage() {
                 </div>
               </div>
             )}
-            <div className="flex flex-col w-full mt-[200px] lg:max-w-[300px] lg:mt-0 rounded-lg">
+            <div className="flex flex-col w-full mt-[200px] lg:max-w-[300px] lg:mt-0 rounded-lg pb-[100px]">
               <ItemCardGrid
-                items={items.filter((i) => i.id !== item?.id)}
+                items={items
+                  .filter((i) => i.id !== item?.id)
+                  .sort(() => Math.random() - 0.5)
+                  .slice(0, 8)}
                 variant="compact"
               />
             </div>

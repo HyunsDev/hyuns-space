@@ -1,6 +1,5 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { BackgroundCanvas } from "@/containers/BackgroundCanvas/BackgroundCanvas";
-import { BottomShadow } from "@/containers/BottomShadow/BottomShadow";
 import { LoadingOverlay } from "@/containers/LoadingOverlay/LoadingOverlay";
 import { MainHeader } from "@/containers/header/MainHeader";
 import { MainDescriptionSection } from "@/containers/main/sections/description/description";
@@ -18,8 +17,6 @@ export function MainPage() {
         <MainPreviewSection />
 
         <BackgroundCanvas />
-        <BottomShadow startY={0} endY={200} />
-
         <div className="min-h-[200dvh]"></div>
       </PageContainer>
     </>

@@ -10,7 +10,7 @@ export function ItemCardGrid({
 }) {
   return (
     <div
-      className="grid gap-x-2 gap-y-6 justify-start"
+      className="grid gap-x-4 gap-y-10 justify-start"
       style={{
         gridTemplateColumns: "repeat(auto-fit, minmax(250px, auto))",
       }}
