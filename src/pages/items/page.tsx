@@ -1,13 +1,10 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { MainHeader } from "@/containers/header/MainHeader";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
-import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { ItemType } from "@/data/items/item.type";
 import { useItems } from "@/hooks/useItems";
-import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 export function ItemsPage() {
   const [type, setType] = useState<ItemType>("project");
@@ -32,11 +29,6 @@ export function ItemsPage() {
               <ToggleGroupItem value="activity">활동</ToggleGroupItem>
               <ToggleGroupItem value="team">팀</ToggleGroupItem>
             </ToggleGroup>
-            <Button variant="ghost" className="flex gap-1 items-center" asChild>
-              <Link to="items">
-                모두 보기 <ArrowRightIcon />
-              </Link>
-            </Button>
           </div>
           <ItemCardGrid items={items} />
         </div>

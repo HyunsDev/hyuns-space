@@ -22,7 +22,9 @@ export function ItemCard({
       <motion.div
         initial={{ y: 12, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.3 }}
+        transition={{
+          duration: 0.3,
+        }}
         whileHover={{ y: -4 }}
         className={cn(
           "relative w-full max-w-full md:max-w-[300px] rounded-lg",
@@ -51,7 +53,7 @@ export function ItemCard({
           <div className="font-medium">{item.name}</div>
         </div>
 
-        <div className="px-4 py-1 text-sm text-gray-400">
+        <div className="px-4 pt-0 pb-1 text-sm text-gray-400">
           {item.description}
         </div>
 

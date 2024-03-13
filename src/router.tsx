@@ -5,6 +5,7 @@ import { ItemsPage } from "./pages/items/page";
 
 import { AnimatePresence } from "framer-motion";
 import { ItemPage } from "./pages/items/[itemId].tsx/page";
+import { WritePage } from "./pages/write/page";
 
 export function MainRouter() {
   const location = useLocation();
@@ -15,6 +16,7 @@ export function MainRouter() {
         <Route path="/" element={<MainPage />} />
         <Route path="/items" element={<ItemsPage />} />
         <Route path="/items/:itemId" element={<ItemPage />} />
+        <Route path="/write" element={<WritePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AnimatePresence>

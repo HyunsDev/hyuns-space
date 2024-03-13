@@ -1,10 +1,10 @@
-import { items } from "@/data/items/items";
+import { getItem } from "@/utils/getItem";
 import { useParams } from "react-router-dom";
 
 export function useItem(itemId?: string) {
   const { itemId: paramsItemId } = useParams();
   const __itemId = itemId || paramsItemId;
-  const item = items.find((item) => item.id === __itemId);
+  const item = getItem(__itemId || "");
 
   return {
     itemId: __itemId,
