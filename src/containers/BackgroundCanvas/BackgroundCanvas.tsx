@@ -55,7 +55,7 @@ class GradientAnimation {
     this.circles = [];
     for (let i = 0; i < this.circlesNum; ++i) {
       this.circles.push(
-        new Circle(this.w, this.h, this.minRadius, this.maxRadius)
+        new Circle(this.w, this.h, this.minRadius, this.maxRadius, this.theme)
       );
     }
   }
