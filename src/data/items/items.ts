@@ -7,7 +7,7 @@ import { DuckieOpenSourceItem } from "./duckie-open-source/items";
 import { DuckieItem } from "./duckie/item";
 import { EndpointClientItem } from "./endpoint-client/items";
 import { ExpressTerminalItem } from "./express-terminal/items";
-import { FindMaskItem } from "./findmask/items";
+import { FindMaskItem } from "./findmask/item";
 import { GyroBallItem } from "./gyro-ball/items";
 import { HyunsDashItem } from "./hyuns-dash/items";
 import { HyunsDashboardItem } from "./hyuns-dashboard/items";

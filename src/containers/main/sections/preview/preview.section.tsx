@@ -24,6 +24,7 @@ export function MainPreviewSection() {
         >
           <ToggleGroupItem value="project">프로젝트</ToggleGroupItem>
           <ToggleGroupItem value="repository">레포지토리</ToggleGroupItem>
+          <ToggleGroupItem value="design">디자인</ToggleGroupItem>
           <ToggleGroupItem value="activity">활동</ToggleGroupItem>
           <ToggleGroupItem value="team">팀</ToggleGroupItem>
         </ToggleGroup>
