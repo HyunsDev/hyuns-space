@@ -35,7 +35,7 @@ export function ItemCard({
       >
         <div className="w-full aspect-video rounded-t-lg">
           <img
-            src={item.thumbnailImage}
+            src={item.thumbnailImage || `/items/${item.id}/thumbnail.png`}
             alt={`${item.name} 썸네일`}
             className="rounded-t-lg"
           />

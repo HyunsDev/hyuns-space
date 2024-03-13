@@ -38,7 +38,7 @@ export function ItemsPage() {
               </Link>
             </Button>
           </div>
-          <ItemCardGrid items={items} variant="compact" />
+          <ItemCardGrid items={items} />
         </div>
       </PageContainer>
     </>

@@ -7,9 +7,11 @@ import { DuckieOpenSourceItem } from "./duckie-open-source/items";
 import { DuckieItem } from "./duckie/item";
 import { EndpointClientItem } from "./endpoint-client/items";
 import { ExpressTerminalItem } from "./express-terminal/items";
+import { FindMaskItem } from "./findmask/items";
 import { GyroBallItem } from "./gyro-ball/items";
 import { HyunsDashItem } from "./hyuns-dash/items";
 import { HyunsDashboardItem } from "./hyuns-dashboard/items";
+import { LineItem } from "./line/item";
 import { MoyeoItem } from "./moyeo/item";
 import { NotionToolsItem } from "./notion-tools/items";
 import { OneTouchSelfCheckItem } from "./one-touch-self-check/items";
@@ -21,11 +23,18 @@ import { RaycasterItem } from "./raycaster/items";
 import { ResourcepackUploaderItem } from "./resourcepace-uploader/items";
 import { RiverNowItem } from "./rivernow/items";
 import { SbldConfItem } from "./sbld-conf/items";
+import { ScrumItem } from "./scrum/item";
+import { SeolChatItem } from "./seol-chat/item";
+import { SeosanStartItem } from "./seosan-start/item";
 import { ShortPendulumMotionSimulatorItem } from "./short-pendulum-motion-simulator/items";
 import { SpaceGravityItem } from "./space-gravity/items";
 import { StudentWordCounterItem } from "./student-word-counter/items";
 import { ToiletItem } from "./toilet/items";
 import { UniBookItem } from "./unibook/items";
+import { WhatClockIsItItem } from "./whatclockisit/item";
+import { WhattoSeoryeongItem } from "./whatto-seoryeong/item";
+import { WhattoItem } from "./whatto/item";
+import { YDSItem } from "./yourssu-design-system/item";
 
 export const items = [
   AITrashCanItem,
@@ -41,6 +50,15 @@ export const items = [
   GyroBallItem,
   HyunsDashItem,
   HyunsDashboardItem,
+  FindMaskItem,
+  SeosanStartItem,
+  SeolChatItem,
+  WhattoItem,
+  WhattoSeoryeongItem,
+  WhatClockIsItItem,
+  LineItem,
+  YDSItem,
+  ScrumItem,
   NotionToolsItem,
   OneTouchSelfCheckItem,
   OpizeItem,

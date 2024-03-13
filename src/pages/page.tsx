@@ -11,13 +11,16 @@ export function MainPage() {
     <>
       <MainHeader />
       <PageContainer>
-        <LoadingOverlay />
+        <LoadingOverlay
+          texts={["새로운 상상을 하고", "상상을 현실로 만듭니다"]}
+          time={2500}
+        />
         <MainHeroSection />
         <MainDescriptionSection />
         <MainPreviewSection />
 
         <BackgroundCanvas />
-        <div className="min-h-[200dvh]"></div>
+        <div className="h-[100px]"></div>
       </PageContainer>
     </>
   );
