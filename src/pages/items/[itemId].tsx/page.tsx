@@ -12,7 +12,7 @@ function PageThumbnail({ item }: { item: Item }) {
   return (
     <div className="max-w-[1000px] w-full aspect-video">
       <img
-        src={item.thumbnailImage}
+        src={item.thumbnailImage || `/items/${item.id}/thumbnail.png`}
         alt={`${item.name} 썸네일`}
         className="rounded-lg"
       />
@@ -44,6 +44,12 @@ function PageDescription({ item }: { item: Item }) {
             <span>내용 업데이트</span>
             <span>{item.updatedAt}</span>
           </div>
+          {item.role && (
+            <div className="flex justify-between">
+              <span>역할</span>
+              <span>{item.role}</span>
+            </div>
+          )}
           {item.urls && (
             <div className="flex justify-between">
               <span>링크</span>
