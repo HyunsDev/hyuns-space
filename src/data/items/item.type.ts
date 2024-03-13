@@ -1,4 +1,9 @@
-export type ItemType = "project" | "repository" | "activity" | "team";
+export type ItemType =
+  | "project"
+  | "repository"
+  | "activity"
+  | "team"
+  | "design";
 export type ItemBadge = "isHot" | "isNew";
 
 export interface Item {

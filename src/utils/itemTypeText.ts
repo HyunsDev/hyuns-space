@@ -10,6 +10,8 @@ export const itemTypeText = (type: ItemType) => {
       return "팀";
     case "repository":
       return "레포";
+    case "design":
+      return "디자인";
     default:
       return "";
   }
