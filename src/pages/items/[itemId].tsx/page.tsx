@@ -6,6 +6,7 @@ import { Item } from "@/data/items/item.type";
 import { useItem } from "@/hooks/useItem";
 import { useItems } from "@/hooks/useItems";
 import Markdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 function PageThumbnail({ item }: { item: Item }) {
   return (
@@ -70,7 +71,7 @@ function PageContent({ item }: { item: Item }) {
   return (
     <div className="py-4">
       <div className="markdown">
-        <Markdown>{item.content}</Markdown>
+        <Markdown rehypePlugins={[rehypeRaw]}>{item.content}</Markdown>
       </div>
     </div>
   );

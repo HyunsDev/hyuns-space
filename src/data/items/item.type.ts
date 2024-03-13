@@ -7,7 +7,7 @@ export interface Item {
   type: ItemType;
   description: string;
   content?: string;
-  thumbnailImage: string;
+  thumbnailImage?: string;
   logoImage?: string;
   tags: string[];
   badges?: ItemBadge[];
@@ -15,4 +15,5 @@ export interface Item {
   urls?: string[];
   updatedAt: string;
   period: string;
+  role?: string;
 }

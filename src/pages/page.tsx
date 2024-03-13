@@ -20,7 +20,7 @@ export function MainPage() {
         <MainPreviewSection />
 
         <BackgroundCanvas />
-        <div className="min-h-[200dvh]"></div>
+        <div className="h-[100px]"></div>
       </PageContainer>
     </>
   );
