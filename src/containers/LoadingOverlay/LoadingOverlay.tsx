@@ -3,8 +3,17 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
 
-export function LoadingOverlay() {
-  const alreadyLoading = sessionStorage.getItem("alreadyLoading") === "true";
+export function LoadingOverlay({
+  texts,
+  time,
+  manual,
+}: {
+  texts: string[];
+  time: number;
+  manual?: boolean;
+}) {
+  const alreadyLoading =
+    !manual && sessionStorage.getItem("alreadyLoading") === "true";
   const [isShow, setIsShow] = useState(false);
   const setIsShowingOverlay = useSetRecoilState(isShowingOverlayAtom);
 
@@ -20,12 +29,13 @@ export function LoadingOverlay() {
     const timer = setTimeout(() => {
       setIsShow(false);
       setIsShowingOverlay(false);
-      sessionStorage.setItem("alreadyLoading", "true");
-    }, 2500);
-    return () => clearTimeout(timer);
-  }, [alreadyLoading, setIsShowingOverlay]);
 
-  const texts = ["새로운 상상을 하고", "상상을 현실로 만듭니다"];
+      if (!manual) {
+        sessionStorage.setItem("alreadyLoading", "true");
+      }
+    }, time);
+    return () => clearTimeout(timer);
+  }, [alreadyLoading, setIsShowingOverlay, time, manual]);
 
   return (
     <AnimatePresence>
