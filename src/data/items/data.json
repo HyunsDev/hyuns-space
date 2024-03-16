@@ -30,7 +30,8 @@
     ],
     "url": "https://ssu.blue",
     "period": "2024~now",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/1M9UKMaO9Zw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "break-out",
@@ -41,7 +42,8 @@
     "tags": [],
     "badges": [],
     "period": "2023",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/OM908Ywte0k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "circular-motion-simulator",
@@ -90,7 +92,7 @@
     "tags": [],
     "badges": [],
     "url": "https://moyeo.me",
-    "content": "\n  # Moyeo 팀  \n\n",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/F2LYQ25JwJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
     "updatedAt": "2024-03-13",
     "period": "2024.05 ~ 2023.11"
   },
@@ -152,7 +154,8 @@
       "https://github.com/HyunsDevssu-2023-art-tech-express-terminal"
     ],
     "period": "2023년 1학기",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/fpoZ16JfqdY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "gyro-ball",
@@ -184,7 +187,8 @@
       "https://github.com/HyunsDev/hyuns-api-v2"
     ],
     "period": "",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/9Nccy1bR4s8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "hyuns-dashboard",
@@ -201,7 +205,8 @@
       "https://github.com/HyunsDev/hyuns-api-v2"
     ],
     "period": "",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/n7lZFhCRI18\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "findmask",
@@ -464,7 +469,8 @@
       "https://space-gravity.hyuns.dev/"
     ],
     "period": "",
-    "updatedAt": "2024-03-13"
+    "updatedAt": "2024-03-13",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/cAx5J5UduSI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
     "id": "student-word-counter",
