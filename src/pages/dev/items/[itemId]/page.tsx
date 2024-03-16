@@ -13,6 +13,7 @@ import { UpdateRole } from "./rows/UpdateRole";
 import { UpdateStacks } from "./rows/UpdateStacks";
 import { UpdateBadges } from "./rows/UpdateBadge";
 import { UpdateContent } from "./rows/UpdateContent";
+import { UpdateUpdatedAt } from "./rows/UpdateUpdatedAt";
 
 function Back() {
   const navigate = useNavigate();
@@ -42,8 +43,15 @@ function EditItem() {
 
   return (
     <div className="w-full">
-      {editingItem?.thumbnailImage ? (
-        <img src={editingItem?.thumbnailImage} className="rounded" alt="" />
+      {editingItem ? (
+        <img
+          src={
+            editingItem?.thumbnailImage ||
+            `/items/${editingItem.id}/thumbnail.png`
+          }
+          className="rounded"
+          alt=""
+        />
       ) : (
         <Skeleton className="w-full aspect-video" />
       )}
@@ -58,6 +66,7 @@ function EditItem() {
           <UpdateURLs />
           <UpdateStacks />
           <UpdateBadges />
+          <UpdateUpdatedAt />
 
           <UpdateContent />
 

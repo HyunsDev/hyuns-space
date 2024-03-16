@@ -505,5 +505,51 @@
     "content": "\n\n",
     "updatedAt": "2024-03-13",
     "period": "2021 ~ now"
+  },
+  {
+    "name": "터치 스피드 게임",
+    "type": "project",
+    "description": "서령고등학교 2021 서령제 출품작",
+    "period": "2021",
+    "url": "https://touch-speed-game.hyuns.dev",
+    "id": "pos-touch-speed-game",
+    "updatedAt": "2024-03-17"
+  },
+  {
+    "name": "몬티 홀 문제 with p5.js",
+    "type": "project",
+    "description": "p5.js로 몬티홀 문제 풀어보기",
+    "period": "2021",
+    "url": "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js",
+    "updatedAt": "2024-03-17",
+    "id": "monty-hall-problem",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/qWcfJ2C_2hs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "urls": [
+      "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
+    ]
+  },
+  {
+    "name": "펭귄 스케이팅 게임",
+    "period": "2021",
+    "type": "project",
+    "description": "펭귄 스케이팅 with 미적분",
+    "url": "https://hyunsdev.github.io/math-animation-game",
+    "urls": [
+      "https://hyunsdev.github.io/math-animation-game"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "math-animation-game"
+  },
+  {
+    "name": "빛의 굴절과 반사",
+    "type": "project",
+    "description": "물리학 빛의 굴절과 반사",
+    "period": "2021",
+    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
+    "urls": [
+      "https://hyunsdev.github.io/physics-refraction-simulator"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "physics-refaction-simulator"
   }
 ]
