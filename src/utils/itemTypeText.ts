@@ -8,7 +8,7 @@ export const itemTypeText = (type: ItemType) => {
       return "활동";
     case "team":
       return "팀";
-    case "repository":
+    case "develop":
       return "레포";
     case "design":
       return "디자인";

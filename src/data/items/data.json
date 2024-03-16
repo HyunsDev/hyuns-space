@@ -1,0 +1,555 @@
+[
+  {
+    "id": "ai-trash-can",
+    "name": "인공지능 쓰레기통",
+    "type": "project",
+    "description": "인공지능으로 쓰레기 분리수거하기",
+    "thumbnailImage": "/items/ai-trash-can/thumbnail.png",
+    "tags": [],
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/t-y4nQxZtdQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/CzRxaxlZpTM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/0sDDE0Mnmj0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n",
+    "period": "2021",
+    "updatedAt": "2024-03-13",
+    "stacks": [
+      "python",
+      "NodeJS"
+    ]
+  },
+  {
+    "id": "bluessu",
+    "name": "BlueSSU 블루슈",
+    "type": "project",
+    "description": "숭실대학교 오픈소스 API 프로젝트",
+    "thumbnailImage": "/items/bluessu/thumbnail.png",
+    "logoImage": "/items/bluessu/logo.png",
+    "tags": [],
+    "badges": [],
+    "urls": [
+      "https://ssu.blue",
+      "https://api-dev.ssu.blue",
+      "https://dashboard-dev.ssu.blue"
+    ],
+    "url": "https://ssu.blue",
+    "period": "2024~now",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "break-out",
+    "name": "벽돌깨기",
+    "type": "project",
+    "description": "숭실대학교 Art&Technology 수업 과제로 제작한 벽돌깨기 게임",
+    "thumbnailImage": "/items/break-out/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "circular-motion-simulator",
+    "name": "원 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/circular-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://circular-motion.hyuns.dev",
+    "urls": [
+      "https://circular-motion.hyuns.dev"
+    ],
+    "period": "2021.08 ~ 2024.03",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "calendar2notion",
+    "name": "Calendar2Notion",
+    "type": "project",
+    "description": "Notion에 일정을 추가하는 웹앱",
+    "thumbnailImage": "/items/calendar2notion/thumbnail.png",
+    "logoImage": "/items/calendar2notion/logo.png",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Notion API"
+    ],
+    "badges": [
+      "isHot"
+    ],
+    "url": "https://calendar2notion.opize.me",
+    "urls": [
+      "https://calendar2notion.opize.me"
+    ],
+    "period": "2021.08 ~ 2024.03",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "moyeo",
+    "name": "Moyeo 모여!",
+    "type": "project",
+    "description": "대학생을 위한 모여!",
+    "thumbnailImage": "/items/moyeo/thumbnail.png",
+    "logoImage": "/items/moyeo/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://moyeo.me",
+    "content": "\n  # Moyeo 팀  \n\n",
+    "updatedAt": "2024-03-13",
+    "period": "2024.05 ~ 2023.11"
+  },
+  {
+    "id": "duckie",
+    "name": "Duckie 덕키",
+    "type": "project",
+    "description": "Duckie 덕키",
+    "thumbnailImage": "/items/duckie/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://duckie.team",
+    "urls": [
+      "https://duckie.team"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "duckie-open-source",
+    "name": "덕키 오픈소스",
+    "type": "project",
+    "description": "덕키의 오픈소스 페이지",
+    "thumbnailImage": "/items/duckie-open-source/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://opensource.duckie.team",
+    "urls": [
+      "https://opensource.duckie.team"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "endpoint-client",
+    "name": "endpoint-client",
+    "type": "develop",
+    "description": "타입 안전한 API 엔드포인트 추상화",
+    "thumbnailImage": "/items/endpoint-client/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/endpoint-client",
+    "urls": [
+      "https://github.com/HyunsDev/endpoint-client"
+    ],
+    "period": "2023",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "express-terminal",
+    "name": "온라인 미술관 - 고속터미널 팀",
+    "type": "project",
+    "description": "숭실대학교 Art&Technology 2023년도 1학기 고속터미널 팀",
+    "thumbnailImage": "/items/express-terminal/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDevssu-2023-art-tech-express-terminal",
+    "urls": [
+      "https://github.com/HyunsDevssu-2023-art-tech-express-terminal"
+    ],
+    "period": "2023년 1학기",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "gyro-ball",
+    "name": "자이로볼",
+    "type": "project",
+    "description": "자이로 센서를 이용한 프로젝트",
+    "thumbnailImage": "/items/gyro-ball/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://gyroball.hyuns.dev",
+    "urls": [
+      "https://gyroball.hyuns.dev"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "hyuns-dash",
+    "name": "Hyuns Dash",
+    "type": "project",
+    "description": "개인 대시보드",
+    "thumbnailImage": "/items/hyuns-dash/thumbnail.png",
+    "logoImage": "/items/hyuns-dash/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/hyuns-dashboard",
+    "urls": [
+      "https://github.com/HyunsDev/hyuns-dashboard",
+      "https://github.com/HyunsDev/hyuns-api-v2"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "hyuns-dashboard",
+    "name": "Hyuns Dashboard",
+    "type": "project",
+    "description": "개인 대시보드",
+    "thumbnailImage": "/items/hyuns-dashboard/thumbnail.png",
+    "logoImage": "/items/hyuns-dashboard/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/hyuns-api-frontend",
+    "urls": [
+      "https://github.com/HyunsDev/hyuns-api-frontend",
+      "https://github.com/HyunsDev/hyuns-api-v2"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "findmask",
+    "name": "마스크찾아줌",
+    "type": "project",
+    "description": "공공 데이터를 활용한 마스크 재고 확인 서비스",
+    "logoImage": "/items/findmask/logo.png",
+    "tags": [],
+    "badges": [],
+    "period": "2020년",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "seosan-start",
+    "name": "서산 Start",
+    "type": "project",
+    "description": "서산시 지역 관광지 서비스",
+    "logoImage": "/items/seosan-start/logo.png",
+    "tags": [],
+    "badges": [],
+    "period": "2021년",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "seol-chat",
+    "name": "설챗",
+    "type": "project",
+    "description": "설치형 비공개 채팅 서비스",
+    "tags": [],
+    "badges": [],
+    "period": "2021년",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "whatto",
+    "name": "내일뭐함",
+    "type": "project",
+    "description": "전국 초/중/고 학교 앱",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "whatto-seoryeong",
+    "name": "내일서령",
+    "type": "project",
+    "description": "서령고등학교 앱",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "whatclockisit",
+    "name": "지금몇시계",
+    "type": "project",
+    "description": "바탕화면 속 조그만 아이",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "line",
+    "name": "한줄한줄",
+    "type": "project",
+    "description": "한줄한줄 글쓰기",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "yourssu-design-system",
+    "name": "Yourssu Design System",
+    "type": "project",
+    "description": "유어슈 디자인 시스템",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "scrum",
+    "name": "Scrum 스크럼",
+    "type": "project",
+    "description": "대학생 커뮤니티",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "notion-tools",
+    "name": "Notion Tools - 노션툴즈",
+    "type": "project",
+    "description": "노션을 위한 All in One 웹사이트 ",
+    "thumbnailImage": "/items/notion-tools/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://www.notion-tools.com",
+    "urls": [
+      "https://www.notion-tools.com"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "one-touch-self-check",
+    "name": "원터치 자가진단",
+    "type": "project",
+    "description": "원터치 자가진단",
+    "thumbnailImage": "/items/one-touch-self-check/thumbnail.png",
+    "logoImage": "/items/one-touch-self-check/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://check.hyuns.dev",
+    "urls": [
+      "https://check.hyuns.dev",
+      "https://github.com/HyunsDev/one-touch-self-check",
+      "https://github.com/HyunsDev/one-touch-self-check-backend"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "opize",
+    "name": "Opize 오피즈",
+    "type": "project",
+    "description": "더욱 편리한 생산성 라이프 프로젝트",
+    "thumbnailImage": "/items/opize/thumbnail.png",
+    "logoImage": "/items/opize/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://opize.me",
+    "content": "\n\n",
+    "updatedAt": "2024-03-13",
+    "period": "2021 ~ now"
+  },
+  {
+    "id": "opize-design-system",
+    "name": "Opize Design System",
+    "type": "project",
+    "description": "오피즈 디자인 시스템",
+    "thumbnailImage": "/items/opize-design-system/thumbnail.png",
+    "logoImage": "/items/opize-design-system/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://design.opize.me",
+    "content": "\n",
+    "updatedAt": "2024-03-13",
+    "period": "2021 ~ now"
+  },
+  {
+    "id": "parabolic-motion-simulator",
+    "name": "포물선 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/parabolic-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev/",
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "project-gathering",
+    "name": "가위바위보 게더링",
+    "type": "project",
+    "description": "외주 프로젝트",
+    "thumbnailImage": "/items/project-gathering/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "raycaster",
+    "name": "레이케스터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/raycaster/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://raycaster.hyuns.dev",
+    "urls": [
+      "https://raycaster.hyuns.dev"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "resourcepack-uploader",
+    "name": "리로스팩 업로더",
+    "type": "project",
+    "description": "마인크레프트 하려고 만든 프로젝트",
+    "thumbnailImage": "/items/resourcepace-uploader/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "river-now",
+    "name": "리버나우",
+    "type": "project",
+    "description": "리버나우",
+    "thumbnailImage": "/items/river-now/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/river-now",
+    "urls": [
+      "https://github.com/HyunsDev/river-now",
+      "https://river-now.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "sbld-conf",
+    "name": "성빈랜드 컨퍼런스 2023",
+    "type": "project",
+    "description": "성빈콘 2023 웹사이트",
+    "thumbnailImage": "/items/sbld-conf/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "short-pendulum-motion-simulator",
+    "name": "단진자 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/short-pendulum-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev/",
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "space-gravity",
+    "name": "스페이스 그래비티",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/space-gravity/thumbnail.png",
+    "logoImage": "/items/space-gravity/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://space-gravity.hyuns.dev/",
+    "urls": [
+      "https://space-gravity.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "student-word-counter",
+    "name": "학생부/자소서 글자수 계산기",
+    "type": "project",
+    "description": "학생부/자소서 글자수 계산기",
+    "thumbnailImage": "/items/student-word-counter/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://counter.hyuns.dev/",
+    "urls": [
+      "https://counter.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "toilet",
+    "name": "급할때 화장실",
+    "type": "project",
+    "description": "유어슈 루키톤",
+    "thumbnailImage": "/items/toilet/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "",
+    "updatedAt": "2024-03-13"
+  },
+  {
+    "id": "unibook",
+    "name": "UniBook 유니북",
+    "type": "project",
+    "description": "새로운 대학 교재의 세계",
+    "thumbnailImage": "/items/unibook/thumbnail.png",
+    "logoImage": "/items/unibook/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://unibook.co",
+    "content": "\n\n",
+    "updatedAt": "2024-03-13",
+    "period": "2021 ~ now"
+  },
+  {
+    "name": "터치 스피드 게임",
+    "type": "project",
+    "description": "서령고등학교 2021 서령제 출품작",
+    "period": "2021",
+    "url": "https://touch-speed-game.hyuns.dev",
+    "id": "pos-touch-speed-game",
+    "updatedAt": "2024-03-17"
+  },
+  {
+    "name": "몬티 홀 문제 with p5.js",
+    "type": "project",
+    "description": "p5.js로 몬티홀 문제 풀어보기",
+    "period": "2021",
+    "url": "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js",
+    "updatedAt": "2024-03-17",
+    "id": "monty-hall-problem",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/qWcfJ2C_2hs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "urls": [
+      "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
+    ]
+  },
+  {
+    "name": "펭귄 스케이팅 게임",
+    "period": "2021",
+    "type": "project",
+    "description": "펭귄 스케이팅 with 미적분",
+    "url": "https://hyunsdev.github.io/math-animation-game",
+    "urls": [
+      "https://hyunsdev.github.io/math-animation-game"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "math-animation-game"
+  },
+  {
+    "name": "빛의 굴절과 반사",
+    "type": "project",
+    "description": "물리학 빛의 굴절과 반사",
+    "period": "2021",
+    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
+    "urls": [
+      "https://hyunsdev.github.io/physics-refraction-simulator"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "physics-refaction-simulator"
+  }
+]

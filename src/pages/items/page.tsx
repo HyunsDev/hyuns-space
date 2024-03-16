@@ -2,7 +2,7 @@ import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { MainHeader } from "@/containers/header/MainHeader";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { ItemType } from "@/data/items/item.type";
+import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";
 import { useItems } from "@/hooks/useItems";
 import { useState } from "react";
 
@@ -24,10 +24,11 @@ export function ItemsPage() {
               value={type}
               onValueChange={(e) => setType(e as ItemType)}
             >
-              <ToggleGroupItem value="project">프로젝트</ToggleGroupItem>
-              <ToggleGroupItem value="repository">레포지토리</ToggleGroupItem>
-              <ToggleGroupItem value="activity">활동</ToggleGroupItem>
-              <ToggleGroupItem value="team">팀</ToggleGroupItem>
+              {itemTypes.map((type) => (
+                <ToggleGroupItem key={type} value={type}>
+                  {itemTypeMap[type]}
+                </ToggleGroupItem>
+              ))}
             </ToggleGroup>
           </div>
           <ItemCardGrid items={items} />

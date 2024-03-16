@@ -59,6 +59,11 @@ export function MainHeader() {
               hyuns.dev
             </Button>
           </a>
+          <Link to="/about">
+            <Button variant="ghost" className="px-2">
+              현우
+            </Button>
+          </Link>
           <Link to="/items">
             <Button variant="ghost" className="px-2">
               둘러보기
