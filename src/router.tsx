@@ -8,6 +8,7 @@ import { ItemPage } from "./pages/items/[itemId]/page";
 import { DevPage } from "./pages/dev/page";
 import { DevItemPage } from "./pages/dev/items/[itemId]/page";
 import { DevItemContentPage } from "./pages/dev/items/[itemId]/content/page";
+import { AboutPage } from "./pages/about/page";
 
 export function MainRouter() {
   const location = useLocation();
@@ -18,6 +19,8 @@ export function MainRouter() {
         <Route path="/" element={<MainPage />} />
         <Route path="/items" element={<ItemsPage />} />
         <Route path="/items/:itemId" element={<ItemPage />} />
+
+        <Route path="/about" element={<AboutPage />} />
 
         <Route path="/dev" element={<DevPage />} />
         <Route path="/dev/items/:itemId" element={<DevItemPage />} />

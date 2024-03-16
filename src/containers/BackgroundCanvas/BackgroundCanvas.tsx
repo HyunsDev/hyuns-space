@@ -132,7 +132,11 @@ class Circle {
   }
 }
 
-export function BackgroundCanvas() {
+export function BackgroundCanvas({
+  scrollOpacity,
+}: {
+  scrollOpacity?: boolean;
+}) {
   const { currentTheme } = useTheme();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animation = useRef<GradientAnimation | null>(null);
@@ -160,13 +164,13 @@ export function BackgroundCanvas() {
     if (!$page) return;
 
     const handleScroll = () => {
-      if (!animation.current) return;
+      if (!animation.current || scrollOpacity === false) return;
       animation.current.opacity = 1 - Math.min(1, $page.scrollTop / 300);
     };
 
     $page.addEventListener("scroll", handleScroll);
     return () => $page?.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [scrollOpacity]);
 
   useEffect(() => {
     if (!animation.current) return;
