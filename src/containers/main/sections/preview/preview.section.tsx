@@ -1,7 +1,7 @@
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { ItemType } from "@/data/items/item.type";
+import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";
 import { useItems } from "@/hooks/useItems";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
@@ -22,11 +22,11 @@ export function MainPreviewSection() {
           value={type}
           onValueChange={(e) => setType(e as ItemType)}
         >
-          <ToggleGroupItem value="project">프로젝트</ToggleGroupItem>
-          <ToggleGroupItem value="repository">레포지토리</ToggleGroupItem>
-          <ToggleGroupItem value="design">디자인</ToggleGroupItem>
-          <ToggleGroupItem value="activity">활동</ToggleGroupItem>
-          <ToggleGroupItem value="team">팀</ToggleGroupItem>
+          {itemTypes.map((type) => (
+            <ToggleGroupItem key={type} value={type}>
+              {itemTypeMap[type]}
+            </ToggleGroupItem>
+          ))}
         </ToggleGroup>
         <Button variant="ghost" className="flex gap-1 items-center" asChild>
           <Link to="items">
