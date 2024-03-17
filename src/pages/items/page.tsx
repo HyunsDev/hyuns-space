@@ -31,7 +31,7 @@ export function ItemsPage() {
               ))}
             </ToggleGroup>
           </div>
-          <ItemCardGrid items={items} />
+          <ItemCardGrid items={items} variant="compact" />
         </div>
       </PageContainer>
     </>

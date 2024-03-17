@@ -1,8 +1,7 @@
-import { Item } from "@/data/items/item.type";
+import { Item, itemTypeMap } from "@/data/items/item.type";
 import { cn } from "@/libs/utils";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { itemTypeText } from "@/utils/itemTypeText";
 import { ItemBadge } from "../ItemBadge/ItemBadge";
 import { useTheme } from "@/components/themeProvider";
 
@@ -31,7 +30,7 @@ export function ItemCard({
           currentTheme === "dark"
             ? "bg-[rgba(255,255,255,0.1)]"
             : "bg-[rgba(255,255,255,0.9)] border",
-          variant === "compact" ? "aspect-square" : "aspect-[3/4]",
+          variant === "compact" ? "aspect-[1/1.1]" : "aspect-[3/4]",
           className
         )}
       >
@@ -65,15 +64,17 @@ export function ItemCard({
 
         <div
           className={cn(
-            "absolute left-0 bottom-0 border-t h-[32px] w-full px-4",
+            "absolute left-0 bottom-0 border-t py-2 w-full px-4 flex flex-col gap-1",
             currentTheme === "dark"
               ? "border-[rgba(255,255,255,0.1)]"
               : "border-border"
           )}
         >
-          <div className="w-full h-full flex justify-between items-center">
+          {variant === "default" && <></>}
+
+          <div className="w-full flex justify-between items-center">
             <div className="text-xs text-gray-500">
-              {itemTypeText(item.type)}
+              {itemTypeMap[item.type]}
             </div>
           </div>
         </div>
