@@ -3,9 +3,11 @@ import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { MainHeader } from "@/containers/header/MainHeader";
 import { Item } from "@/data/items/item.type";
+import { useIsDevMode } from "@/hooks/useIsDevMode";
 import { useItem } from "@/hooks/useItem";
 import { useItems } from "@/hooks/useItems";
 import Markdown from "react-markdown";
+import { Link } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
 
 function PageThumbnail({ item }: { item: Item }) {
@@ -84,6 +86,7 @@ function PageContent({ item }: { item: Item }) {
 }
 
 export function ItemPage() {
+  const isDevMode = useIsDevMode();
   const { items } = useItems();
   const { item } = useItem();
 
@@ -96,6 +99,13 @@ export function ItemPage() {
             {item && (
               <div className="flex flex-col items-center lg:items-end">
                 <PageThumbnail item={item} />
+
+                {isDevMode && (
+                  <Link to={`/dev/items/${item.id}`} className="mt-4 underline">
+                    수정하기
+                  </Link>
+                )}
+
                 <div className="max-w-[688px] my-10 w-full">
                   <PageDescription item={item} />
                   <PageContent item={item} />

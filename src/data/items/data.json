@@ -567,5 +567,47 @@
     ],
     "updatedAt": "2024-03-17",
     "id": "discord-webhook"
+  },
+  {
+    "name": "숭실대학교 글로벌미디어학부",
+    "type": "activity",
+    "description": "숭실대학교 글로벌미디어학부 재학, 컴퓨터학부 복수 전공",
+    "period": "2023 ~ now",
+    "updatedAt": "2024-03-17",
+    "id": "soongsil-university"
+  },
+  {
+    "name": "IT 프로젝트",
+    "type": "activity",
+    "description": "숭실대학교 IT프로젝트 우수상",
+    "period": "2023",
+    "updatedAt": "2024-03-17",
+    "id": "award-it-project-2023"
+  },
+  {
+    "name": "2022 공공데이터 활용 서비스 개발 공모전 최우수상",
+    "type": "activity",
+    "description": "고등학교4학년팀",
+    "period": "2022",
+    "role": "프론트엔드",
+    "updatedAt": "2024-03-17",
+    "id": "award-open-data-2022"
+  },
+  {
+    "name": "2023 전국 대학생 SW 창업 아이디어톤 대상",
+    "type": "activity",
+    "description": "대상받으면호수공원입수",
+    "period": "2023",
+    "updatedAt": "2024-03-17",
+    "id": "award-sw-founded-ideaton-2023"
+  },
+  {
+    "type": "activity",
+    "name": "Happy Notion's Year Korea 2022 웨비나 발표",
+    "description": "노션과 구글 캘린더 연동하기",
+    "updatedAt": "2024-03-17",
+    "period": "2022",
+    "id": "notion-calendar2notion-youtube",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/oFjA0U8421o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   }
 ]
