@@ -20,15 +20,27 @@ export function MainPage() {
         <MainDescriptionSection />
 
         <CurationSection
-          curation={["primary"]}
+          condition={{
+            curating: ["primary"],
+          }}
           title="Primary 프로젝트"
           description="자신있게 소개하는 메인 프로젝트입니다."
         />
 
         <CurationSection
-          curation={["secondary"]}
+          condition={{
+            curating: ["secondary"],
+          }}
           title="Secondary 프로젝트"
           description="많은 정성을 담은 사이드 프로젝트입니다."
+        />
+
+        <CurationSection
+          condition={{
+            badges: ["isHot"],
+          }}
+          title="🔥 Hot 프로젝트"
+          description="지금도 열심히 개발 중인 프로젝트입니다."
         />
 
         <MainPreviewSection />

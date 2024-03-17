@@ -1,19 +1,17 @@
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
-import { useItems } from "@/hooks/useItems";
+import { UseItemsOptions, useItems } from "@/hooks/useItems";
 import { ReactNode } from "react";
 
 export function CurationSection({
-  curation,
+  condition,
   title,
   description,
 }: {
-  curation: string[];
+  condition: UseItemsOptions;
   title: ReactNode;
   description?: ReactNode;
 }) {
-  const { items } = useItems({
-    curating: curation,
-  });
+  const { items } = useItems(condition);
 
   return (
     <div className="max-w-max-screen w-full px-4 md:px-8 m-auto mt-[200px] space-y-4">

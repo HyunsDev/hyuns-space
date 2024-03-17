@@ -1,26 +1,40 @@
-import { Item, ItemType } from "@/data/items/item.type";
+import { Item, ItemBadge, ItemType } from "@/data/items/item.type";
 import { items } from "@/data/items/items";
 
-export function useItems(options?: {
+export type UseItemsOptions = {
   type?: ItemType;
   curating?: string[];
+  badges?: ItemBadge[];
   limit?: number;
-}) {
-  const { type, curating, limit } = options || {};
+  tags?: string[];
+};
+export function useItems(options?: UseItemsOptions) {
   let result: Item[] = items;
 
-  if (type) {
-    result = result.filter((item) => item.type === type);
+  if (options?.type) {
+    result = result.filter((item) => item.type === options?.type);
   }
 
-  if (curating) {
+  if (options?.curating) {
     result = result.filter((item) =>
-      item.curating?.some((c) => curating.includes(c))
+      item.curating?.some((c) => options?.curating?.includes(c))
     );
   }
 
-  if (limit) {
-    result = result.slice(0, limit);
+  if (options?.tags) {
+    result = result.filter((item) =>
+      item?.tags?.some((tag) => options?.tags?.includes(tag))
+    );
+  }
+
+  if (options?.badges) {
+    result = result.filter((item) =>
+      item?.badges?.some((badge) => options?.badges?.includes(badge))
+    );
+  }
+
+  if (options?.limit) {
+    result = result.slice(0, options?.limit);
   }
 
   return {

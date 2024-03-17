@@ -11,6 +11,7 @@ export function MainPreviewSection() {
   const [type, setType] = useState<ItemType>("project");
   const { items } = useItems({
     type: type,
+    limit: 5,
   });
 
   return (
@@ -35,7 +36,7 @@ export function MainPreviewSection() {
           </Link>
         </Button>
       </div>
-      <ItemCardGrid items={items} variant="compact" />
+      <ItemCardGrid items={items} variant="compact" withSeeAllCard />
     </div>
   );
 }
