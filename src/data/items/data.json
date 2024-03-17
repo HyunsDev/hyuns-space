@@ -7,12 +7,19 @@
     "thumbnailImage": "/items/unibook/thumbnail.png",
     "logoImage": "/items/unibook/logo.png",
     "tags": [],
-    "badges": ["founded", "isHot", "isNew"],
+    "badges": [
+      "founded",
+      "isHot",
+      "isNew"
+    ],
     "url": "https://unibook.co",
     "content": "\n\n",
     "updatedAt": "2024-03-13",
     "period": "2021 ~ now",
-    "curating": ["primary"]
+    "curating": [
+      "primary"
+    ],
+    "role": "기획, UX/UI, 백엔드, 프론트엔드, 출판/편집"
   },
   {
     "id": "bluessu",
@@ -22,7 +29,9 @@
     "thumbnailImage": "/items/bluessu/thumbnail.png",
     "logoImage": "/items/bluessu/logo.png",
     "tags": [],
-    "badges": ["isHot"],
+    "badges": [
+      "isHot"
+    ],
     "urls": [
       "https://ssu.blue",
       "https://api-dev.ssu.blue",
@@ -32,7 +41,9 @@
     "period": "2024~now",
     "updatedAt": "2024-03-13",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/1M9UKMaO9Zw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "curating": ["secondary"]
+    "curating": [
+      "secondary"
+    ]
   },
   {
     "id": "calendar2notion",
@@ -41,16 +52,26 @@
     "description": "Notion에 일정을 추가하는 웹앱",
     "thumbnailImage": "/items/calendar2notion/thumbnail.png",
     "logoImage": "/items/calendar2notion/logo.png",
-    "tags": ["React", "TypeScript", "Notion API"],
-    "badges": ["founded"],
+    "tags": [
+      "React",
+      "TypeScript",
+      "Notion API"
+    ],
+    "badges": [
+      "founded"
+    ],
     "url": "https://calendar2notion.opize.me",
-    "urls": ["https://calendar2notion.opize.me"],
+    "urls": [
+      "https://calendar2notion.opize.me"
+    ],
     "period": "2021.08 ~ 2024.03",
     "updatedAt": "2024-03-13",
     "content": "Calendarn2notion은 노션과 구글 캘린더를 연결하여 양방향 동기화를 가능하게 만들어주는 서비스입니다. 2023.07 기준으로 12000명 이상의 가입자가 이용하고 있습니다.\n\n## 기술 및 업무\n### Frontend\n- NextJS를 이용한 SSR 프론트엔드\n- react-query를 이용한 API 캐싱\n- recoil을 이용한 상태 관리\n\nhttps://github.com/HyunsDev/opize-calendar2notion-frontend\n\n### Backend\n- NestJS를 이용한 백엔드 구현\n- 모노레포를 이용한 개발환경 구축\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend\n\n### Syncbot\n- Notion API와 Google Calendar API를 이용한 동기화 자동화\n- Worker Thread를 이용한 다중 쓰레드 사용\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend",
-    "curating": ["primary"]
+    "curating": [
+      "primary"
+    ],
+    "role": "1인 개발"
   },
-
   {
     "id": "express-terminal",
     "name": "온라인 미술관 - 고속터미널 팀",
@@ -60,7 +81,9 @@
     "tags": [],
     "badges": [],
     "url": "https://github.com/HyunsDevssu-2023-art-tech-express-terminal",
-    "urls": ["https://github.com/HyunsDevssu-2023-art-tech-express-terminal"],
+    "urls": [
+      "https://github.com/HyunsDevssu-2023-art-tech-express-terminal"
+    ],
     "period": "2023년 1학기",
     "updatedAt": "2024-03-13",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/fpoZ16JfqdY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
@@ -86,7 +109,9 @@
     "tags": [],
     "badges": [],
     "url": "https://circular-motion.hyuns.dev",
-    "urls": ["https://circular-motion.hyuns.dev"],
+    "urls": [
+      "https://circular-motion.hyuns.dev"
+    ],
     "period": "2021.08 ~ 2024.03",
     "updatedAt": "2024-03-13"
   },
@@ -103,7 +128,9 @@
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/F2LYQ25JwJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
     "updatedAt": "2024-03-13",
     "period": "2024.05 ~ 2023.11",
-    "curating": ["secondary"]
+    "curating": [
+      "secondary"
+    ]
   },
   {
     "id": "opize",
@@ -132,8 +159,12 @@
     "content": "\nOpize Design System은 디자인에 대한 고민 대신, 아이디어를 현실로 만들도록 도와주는 컴포넌트 라이브러리이자 디자인 시스템입니다.\n\n## 기술 및 업무\n* React를 이용한 디자인 시스템 구축\n* Styled-components를 이용한 컴포넌트 스타일링\n* Storybook을 이용한 디자인 시스템 개발 환경 구축 및 문서화\n* Bable, Webpack을 이용하여 React 라이브러리 npm 배포\n* Ref와 Event를 이용한 HTML-like 컴포넌트 개발\n* 다른 태그로 변경할 수 있는 Polymorphic 컴포넌트 개발\n* React Context를 이용한 라이브러리 상태 관리\n* 컬러 팔레트를 이용한 라이트/다크 테마 구현\n\n<br>\nhttps://github.com/HyunsDev/opize-design-system",
     "updatedAt": "2024-03-13",
     "period": "2021 ~ now",
-    "curating": ["primary"],
-    "urls": ["https://design.opize.me"]
+    "curating": [
+      "primary"
+    ],
+    "urls": [
+      "https://design.opize.me"
+    ]
   },
   {
     "id": "endpoint-client",
@@ -144,7 +175,9 @@
     "tags": [],
     "badges": [],
     "url": "https://github.com/HyunsDev/endpoint-client",
-    "urls": ["https://github.com/HyunsDev/endpoint-client"],
+    "urls": [
+      "https://github.com/HyunsDev/endpoint-client"
+    ],
     "period": "2023",
     "updatedAt": "2024-03-13"
   },
@@ -167,7 +200,9 @@
     "tags": [],
     "badges": [],
     "url": "https://gyroball.hyuns.dev",
-    "urls": ["https://gyroball.hyuns.dev"],
+    "urls": [
+      "https://gyroball.hyuns.dev"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -188,7 +223,9 @@
     "period": "",
     "updatedAt": "2024-03-13",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/9Nccy1bR4s8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "curating": ["secondary"]
+    "curating": [
+      "secondary"
+    ]
   },
   {
     "id": "hyuns-dashboard",
@@ -217,7 +254,9 @@
     "tags": [],
     "badges": [],
     "url": "https://duckie.team",
-    "urls": ["https://duckie.team"],
+    "urls": [
+      "https://duckie.team"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -230,11 +269,12 @@
     "tags": [],
     "badges": [],
     "url": "https://opensource.duckie.team",
-    "urls": ["https://opensource.duckie.team"],
+    "urls": [
+      "https://opensource.duckie.team"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
-
   {
     "id": "findmask",
     "name": "마스크찾아줌",
@@ -326,7 +366,9 @@
     "tags": [],
     "badges": [],
     "url": "https://www.notion-tools.com",
-    "urls": ["https://www.notion-tools.com"],
+    "urls": [
+      "https://www.notion-tools.com"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -357,7 +399,9 @@
     "tags": [],
     "badges": [],
     "url": "https://pendulum.hyuns.dev/",
-    "urls": ["https://pendulum.hyuns.dev/"],
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -381,7 +425,9 @@
     "tags": [],
     "badges": [],
     "url": "https://raycaster.hyuns.dev",
-    "urls": ["https://raycaster.hyuns.dev"],
+    "urls": [
+      "https://raycaster.hyuns.dev"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -406,11 +452,15 @@
     "tags": [],
     "badges": [],
     "url": "https://space-gravity.hyuns.dev/",
-    "urls": ["https://space-gravity.hyuns.dev/"],
+    "urls": [
+      "https://space-gravity.hyuns.dev/"
+    ],
     "period": "",
     "updatedAt": "2024-03-13",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/cAx5J5UduSI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n\n`React`와 `Web Worker`를 이용한 웹 우주 중력 시뮬레이터입니다.\n웹 환경에서 키보드와 마우스를 통해 손 쉬운 인터렉션으로 행성간의 중력 작용을 시뮬레이션 할 수 있으며, `Web Worker`를 이용하여 성능 최적화를 이루어냈습니다.\n\n## 기술 및 업무\n- Web Worker 쓰레드 분리를 이용한 사용자 반응성 개선\n- HTML Canvas를 이용한 인터렉티브한 디자인 표시\n- Styled-components를 이용한 스타일링\n- React Context를 이용한 상태 관리\n\n<br>\nhttps://github.com/HyunsDev/space-gravity",
-    "curating": ["secondary"]
+    "curating": [
+      "secondary"
+    ]
   },
   {
     "id": "ai-trash-can",
@@ -422,8 +472,13 @@
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/t-y4nQxZtdQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/CzRxaxlZpTM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/0sDDE0Mnmj0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n",
     "period": "2021",
     "updatedAt": "2024-03-13",
-    "stacks": ["python", "NodeJS"],
-    "curating": ["secondary"]
+    "stacks": [
+      "python",
+      "NodeJS"
+    ],
+    "curating": [
+      "secondary"
+    ]
   },
   {
     "id": "river-now",
@@ -452,7 +507,10 @@
     "period": "",
     "updatedAt": "2024-03-13",
     "content": "\n2023 SBLD Conference의 오거나이저로, 웹 개발과 컨퍼런스 진행을 맡았습니다.\n\n## 업무\n\n프론트엔드 개발\n\n## 기술\n\n- Styled-components를 이용한 스타일링\n- 모바일, 웹 환경을 위한 반응형 웹 디자인\n- 마우스 이벤트를 이용한 드래그 가능한 컴포넌트 구현\n\nhttps://github.com/sungbinlandconf/2023.sungbinland.day (현재 사용 불가)",
-    "curating": ["secondary"]
+    "curating": [
+      "secondary"
+    ],
+    "role": "프론트엔드 개발"
   },
   {
     "id": "short-pendulum-motion-simulator",
@@ -463,11 +521,12 @@
     "tags": [],
     "badges": [],
     "url": "https://pendulum.hyuns.dev/",
-    "urls": ["https://pendulum.hyuns.dev/"],
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
-
   {
     "id": "student-word-counter",
     "name": "학생부/자소서 글자수 계산기",
@@ -477,7 +536,9 @@
     "tags": [],
     "badges": [],
     "url": "https://counter.hyuns.dev/",
-    "urls": ["https://counter.hyuns.dev/"],
+    "urls": [
+      "https://counter.hyuns.dev/"
+    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -510,7 +571,9 @@
     "updatedAt": "2024-03-17",
     "id": "monty-hall-problem",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/qWcfJ2C_2hs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "urls": ["https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"]
+    "urls": [
+      "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
+    ]
   },
   {
     "name": "펭귄 스케이팅 게임",
@@ -518,7 +581,9 @@
     "type": "project",
     "description": "펭귄 스케이팅 with 미적분",
     "url": "https://hyunsdev.github.io/math-animation-game",
-    "urls": ["https://hyunsdev.github.io/math-animation-game"],
+    "urls": [
+      "https://hyunsdev.github.io/math-animation-game"
+    ],
     "updatedAt": "2024-03-17",
     "id": "math-animation-game"
   },
@@ -528,7 +593,9 @@
     "description": "물리학 빛의 굴절과 반사",
     "period": "2021",
     "url": "https://hyunsdev.github.io/physics-refraction-simulator",
-    "urls": ["https://hyunsdev.github.io/physics-refraction-simulator"],
+    "urls": [
+      "https://hyunsdev.github.io/physics-refraction-simulator"
+    ],
     "updatedAt": "2024-03-17",
     "id": "physics-refaction-simulator"
   },
@@ -536,7 +603,9 @@
     "name": "@hyunsdev/discord-webhook",
     "type": "develop",
     "description": "npm discord webhook library",
-    "urls": ["https://www.npmjs.com/package/@hyunsdev/discord-webhook"],
+    "urls": [
+      "https://www.npmjs.com/package/@hyunsdev/discord-webhook"
+    ],
     "updatedAt": "2024-03-17",
     "id": "discord-webhook"
   },
