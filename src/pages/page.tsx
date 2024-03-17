@@ -40,7 +40,7 @@ export function MainPage() {
             badges: ["isHot"],
           }}
           title="🔥 Hot 프로젝트"
-          description="지금도 열심히 개발 중인 프로젝트입니다"
+          description="지금도 열심히 개발 중이에요"
         />
 
         <CurationSection
@@ -48,7 +48,7 @@ export function MainPage() {
             curating: ["physics"],
           }}
           title="웹 물리엔진 시리즈"
-          description="웹에서 물리엔진을 느껴볼 수 있어요"
+          description="놀라운 시뮬레이션을 체험해보세요"
         />
 
         <MainPreviewSection />
