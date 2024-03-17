@@ -24,7 +24,7 @@ export function MainPage() {
             curating: ["primary"],
           }}
           title="Primary 프로젝트"
-          description="자신있게 소개하는 메인 프로젝트입니다."
+          description="자신있게 소개하는 메인 프로젝트입니다"
         />
 
         <CurationSection
@@ -32,7 +32,7 @@ export function MainPage() {
             curating: ["secondary"],
           }}
           title="Secondary 프로젝트"
-          description="많은 정성을 담은 사이드 프로젝트입니다."
+          description="많은 정성을 담은 사이드 프로젝트입니다"
         />
 
         <CurationSection
@@ -40,7 +40,15 @@ export function MainPage() {
             badges: ["isHot"],
           }}
           title="🔥 Hot 프로젝트"
-          description="지금도 열심히 개발 중인 프로젝트입니다."
+          description="지금도 열심히 개발 중인 프로젝트입니다"
+        />
+
+        <CurationSection
+          condition={{
+            curating: ["physics"],
+          }}
+          title="웹 물리엔진 시리즈"
+          description="웹에서 물리엔진을 느껴볼 수 있어요"
         />
 
         <MainPreviewSection />

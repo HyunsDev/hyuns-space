@@ -34,7 +34,15 @@ function PageDescription({ item }: { item: Item }) {
             className="size-12 rounded"
           />
         )}
-        <div className="font-medium text-4xl">{item.name}</div>
+        <div className="font-medium text-4xl">
+          {item.url ? (
+            <a href={item.url} target="_blank" className="hover:underline">
+              {item.name}
+            </a>
+          ) : (
+            item.name
+          )}
+        </div>
       </div>
       <div className="flex flex-col gap-2">
         <div className="text text-muted-foreground">{item.description}</div>
@@ -58,7 +66,12 @@ function PageDescription({ item }: { item: Item }) {
               <span>링크</span>
               <div className="flex flex-col items-end">
                 {item.urls.map((url, index) => (
-                  <a href={url} key={index} className="underline">
+                  <a
+                    href={url}
+                    key={index}
+                    className="underline"
+                    target="_blank"
+                  >
                     {url}
                   </a>
                 ))}

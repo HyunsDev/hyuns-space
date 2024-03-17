@@ -101,21 +101,6 @@
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/OM908Ywte0k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
-    "id": "circular-motion-simulator",
-    "name": "원 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/circular-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://circular-motion.hyuns.dev",
-    "urls": [
-      "https://circular-motion.hyuns.dev"
-    ],
-    "period": "2021.08 ~ 2024.03",
-    "updatedAt": "2024-03-13"
-  },
-  {
     "id": "moyeo",
     "name": "Moyeo 모여!",
     "type": "project",
@@ -130,6 +115,9 @@
     "period": "2024.05 ~ 2023.11",
     "curating": [
       "secondary"
+    ],
+    "urls": [
+      "https://moyeo.me"
     ]
   },
   {
@@ -188,21 +176,6 @@
     "description": "유어슈 디자인 시스템",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "gyro-ball",
-    "name": "자이로볼",
-    "type": "project",
-    "description": "자이로 센서를 이용한 프로젝트",
-    "thumbnailImage": "/items/gyro-ball/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://gyroball.hyuns.dev",
-    "urls": [
-      "https://gyroball.hyuns.dev"
-    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -391,21 +364,6 @@
     "updatedAt": "2024-03-13"
   },
   {
-    "id": "parabolic-motion-simulator",
-    "name": "포물선 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/parabolic-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://pendulum.hyuns.dev/",
-    "urls": [
-      "https://pendulum.hyuns.dev/"
-    ],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
     "id": "project-gathering",
     "name": "가위바위보 게더링",
     "type": "project",
@@ -413,21 +371,6 @@
     "thumbnailImage": "/items/project-gathering/thumbnail.png",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "raycaster",
-    "name": "레이케스터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/raycaster/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://raycaster.hyuns.dev",
-    "urls": [
-      "https://raycaster.hyuns.dev"
-    ],
     "period": "",
     "updatedAt": "2024-03-13"
   },
@@ -459,8 +402,123 @@
     "updatedAt": "2024-03-13",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/cAx5J5UduSI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n\n`React`와 `Web Worker`를 이용한 웹 우주 중력 시뮬레이터입니다.\n웹 환경에서 키보드와 마우스를 통해 손 쉬운 인터렉션으로 행성간의 중력 작용을 시뮬레이션 할 수 있으며, `Web Worker`를 이용하여 성능 최적화를 이루어냈습니다.\n\n## 기술 및 업무\n- Web Worker 쓰레드 분리를 이용한 사용자 반응성 개선\n- HTML Canvas를 이용한 인터렉티브한 디자인 표시\n- Styled-components를 이용한 스타일링\n- React Context를 이용한 상태 관리\n\n<br>\nhttps://github.com/HyunsDev/space-gravity",
     "curating": [
-      "secondary"
+      "secondary",
+      "physics"
     ]
+  },
+  {
+    "id": "raycaster",
+    "name": "레이케스터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/raycaster/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://raycaster.hyuns.dev",
+    "urls": [
+      "https://raycaster.hyuns.dev"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ]
+  },
+  {
+    "id": "circular-motion-simulator",
+    "name": "원 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/circular-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://circular-motion.hyuns.dev",
+    "urls": [
+      "https://circular-motion.hyuns.dev"
+    ],
+    "period": "2021.08 ~ 2024.03",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ]
+  },
+  {
+    "id": "gyro-ball",
+    "name": "자이로볼",
+    "type": "project",
+    "description": "자이로 센서를 이용한 프로젝트",
+    "thumbnailImage": "/items/gyro-ball/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://gyroball.hyuns.dev",
+    "urls": [
+      "https://gyroball.hyuns.dev"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ]
+  },
+  {
+    "id": "parabolic-motion-simulator",
+    "name": "포물선 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/parabolic-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev/",
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ]
+  },
+  {
+    "id": "short-pendulum-motion-simulator",
+    "name": "단진자 운동 시뮬레이터",
+    "type": "project",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/short-pendulum-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev/",
+    "urls": [
+      "https://pendulum.hyuns.dev/"
+    ],
+    "period": "",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ]
+  },
+  {
+    "name": "펭귄 스케이팅 게임",
+    "period": "2021",
+    "type": "project",
+    "description": "펭귄 스케이팅 with 미적분",
+    "url": "https://hyunsdev.github.io/math-animation-game",
+    "urls": [
+      "https://hyunsdev.github.io/math-animation-game"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "math-animation-game"
+  },
+  {
+    "name": "빛의 굴절과 반사",
+    "type": "project",
+    "description": "물리학 빛의 굴절과 반사",
+    "period": "2021",
+    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
+    "urls": [
+      "https://hyunsdev.github.io/physics-refraction-simulator"
+    ],
+    "updatedAt": "2024-03-17",
+    "id": "physics-refaction-simulator"
   },
   {
     "id": "ai-trash-can",
@@ -513,21 +571,6 @@
     "role": "프론트엔드 개발"
   },
   {
-    "id": "short-pendulum-motion-simulator",
-    "name": "단진자 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/short-pendulum-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://pendulum.hyuns.dev/",
-    "urls": [
-      "https://pendulum.hyuns.dev/"
-    ],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
     "id": "student-word-counter",
     "name": "학생부/자소서 글자수 계산기",
     "type": "project",
@@ -574,30 +617,6 @@
     "urls": [
       "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
     ]
-  },
-  {
-    "name": "펭귄 스케이팅 게임",
-    "period": "2021",
-    "type": "project",
-    "description": "펭귄 스케이팅 with 미적분",
-    "url": "https://hyunsdev.github.io/math-animation-game",
-    "urls": [
-      "https://hyunsdev.github.io/math-animation-game"
-    ],
-    "updatedAt": "2024-03-17",
-    "id": "math-animation-game"
-  },
-  {
-    "name": "빛의 굴절과 반사",
-    "type": "project",
-    "description": "물리학 빛의 굴절과 반사",
-    "period": "2021",
-    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
-    "urls": [
-      "https://hyunsdev.github.io/physics-refraction-simulator"
-    ],
-    "updatedAt": "2024-03-17",
-    "id": "physics-refaction-simulator"
   },
   {
     "name": "@hyunsdev/discord-webhook",
