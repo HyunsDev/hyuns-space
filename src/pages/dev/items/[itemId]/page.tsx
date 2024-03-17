@@ -14,6 +14,7 @@ import { UpdateStacks } from "./rows/UpdateStacks";
 import { UpdateBadges } from "./rows/UpdateBadge";
 import { UpdateContent } from "./rows/UpdateContent";
 import { UpdateUpdatedAt } from "./rows/UpdateUpdatedAt";
+import { UpdateCurating } from "./rows/UpdateCurating";
 
 function Back() {
   const navigate = useNavigate();
@@ -64,6 +65,7 @@ function EditItem() {
           <UpdateRole />
           <UpdateURL />
           <UpdateURLs />
+          <UpdateCurating />
           <UpdateStacks />
           <UpdateBadges />
           <UpdateUpdatedAt />

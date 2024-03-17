@@ -4,6 +4,7 @@ import { useDevItem } from "@/hooks/useDevItem";
 import Markdown from "react-markdown";
 import { useNavigate } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
 
 function Back() {
   const { itemId } = useDevItem();
@@ -30,7 +31,7 @@ export function DevItemContentPage() {
         <div className="flex gap-2 h-full">
           <div className="flex-1 h-full overflow-auto">
             <textarea
-              className="max-h-[calc(100%-40px)] h-full w-full font-mono text-[15px] focus:outline-none"
+              className="bg-background text-foreground max-h-[calc(100%-40px)] h-full w-full font-mono text-[15px] focus:outline-none"
               value={editingItem?.content || ""}
               onChange={(e) =>
                 setEditingItem((prev) => ({
@@ -50,7 +51,7 @@ export function DevItemContentPage() {
           </div>
           <div className="flex-1 h-full overflow-auto">
             <div className="markdown">
-              <Markdown rehypePlugins={[rehypeRaw]}>
+              <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
                 {editingItem?.content}
               </Markdown>
             </div>

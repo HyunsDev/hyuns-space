@@ -9,6 +9,7 @@ import { useItems } from "@/hooks/useItems";
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
 
 function PageThumbnail({ item }: { item: Item }) {
   return (
@@ -79,7 +80,9 @@ function PageContent({ item }: { item: Item }) {
   return (
     <div className="py-4">
       <div className="markdown">
-        <Markdown rehypePlugins={[rehypeRaw]}>{item.content}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+          {item.content}
+        </Markdown>
       </div>
     </div>
   );
