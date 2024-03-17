@@ -23,7 +23,7 @@ export function MainPage() {
           condition={{
             curating: ["primary"],
           }}
-          title="Primary 프로젝트"
+          title="⭐️ Primary 프로젝트"
           description="자신있게 소개하는 메인 프로젝트입니다"
         />
 
@@ -31,7 +31,7 @@ export function MainPage() {
           condition={{
             curating: ["secondary"],
           }}
-          title="Secondary 프로젝트"
+          title="🌙 Secondary 프로젝트"
           description="많은 정성을 담은 사이드 프로젝트입니다"
         />
 
@@ -47,7 +47,7 @@ export function MainPage() {
           condition={{
             curating: ["physics"],
           }}
-          title="웹 물리엔진 시리즈"
+          title="🚀 웹 물리엔진 시리즈"
           description="놀라운 시뮬레이션을 체험해보세요"
         />
 

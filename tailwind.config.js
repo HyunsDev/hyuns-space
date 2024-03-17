@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       spacing: {
-        "max-screen": '1564px',
+        "max-screen": '1578px',
       },
       colors: {
         border: "hsl(var(--border))",

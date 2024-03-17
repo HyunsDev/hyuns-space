@@ -24,7 +24,7 @@ export function SeeAllCard({
         }}
         whileHover={{ y: -4 }}
         className={cn(
-          "relative w-full max-w-full md:max-w-[300px] rounded-lg",
+          "relative w-full max-w-full md:max-w-[290px] rounded-lg",
           currentTheme === "dark"
             ? "bg-[rgba(255,255,255,0.1)]"
             : "bg-[rgba(255,255,255,0.9)] border",
@@ -33,7 +33,7 @@ export function SeeAllCard({
           className
         )}
       >
-        <div className="w-[300px] h-full flex flex-col items-center justify-center">
+        <div className="w-[290px] h-full flex flex-col items-center justify-center">
           <div className="text-2xl font-bold">둘러보기</div>
           <div className="text-gray-500">모든 아이템을 확인해보세요.</div>
         </div>
@@ -63,7 +63,7 @@ export function ItemCard({
         }}
         whileHover={{ y: -4 }}
         className={cn(
-          "relative w-full max-w-full md:max-w-[300px] rounded-lg",
+          "relative w-full max-w-full md:max-w-[290px] rounded-lg",
           currentTheme === "dark"
             ? "bg-[rgba(255,255,255,0.1)]"
             : "bg-[rgba(255,255,255,0.9)] border",

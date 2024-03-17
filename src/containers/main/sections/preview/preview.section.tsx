@@ -11,7 +11,7 @@ export function MainPreviewSection() {
   const [type, setType] = useState<ItemType>("project");
   const { items } = useItems({
     type: type,
-    limit: 5,
+    limit: 9,
   });
 
   return (
