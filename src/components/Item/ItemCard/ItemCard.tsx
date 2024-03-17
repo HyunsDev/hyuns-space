@@ -31,7 +31,7 @@ export function ItemCard({
           currentTheme === "dark"
             ? "bg-[rgba(255,255,255,0.1)]"
             : "bg-[rgba(255,255,255,0.9)] border",
-          variant === "compact" ? "aspect-square" : "aspect-[3/4]",
+          variant === "compact" ? "aspect-[1/1.1]" : "aspect-[3/4]",
           className
         )}
       >

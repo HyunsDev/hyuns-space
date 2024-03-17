@@ -609,5 +609,13 @@
     "period": "2022",
     "id": "notion-calendar2notion-youtube",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/oFjA0U8421o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "name": "Opize 설립",
+    "type": "activity",
+    "description": "더욱 편리한 생산성 라이프를 위한 프로젝트, Opize를 설립(사업자 등록)",
+    "period": "2022.01",
+    "updatedAt": "2024-03-17",
+    "id": "opize-found"
   }
 ]
