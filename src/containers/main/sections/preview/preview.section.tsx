@@ -11,10 +11,12 @@ export function MainPreviewSection() {
   const [type, setType] = useState<ItemType>("project");
   const { items } = useItems({
     type: type,
+    limit: 9,
   });
 
   return (
     <div className="max-w-max-screen w-full px-4 md:px-8 m-auto mt-[200px] space-y-4">
+      <div className="text-2xl font-bold">모든 아이템</div>
       <div className="flex justify-between gap-2">
         <ToggleGroup
           type="single"
@@ -34,7 +36,7 @@ export function MainPreviewSection() {
           </Link>
         </Button>
       </div>
-      <ItemCardGrid items={items} variant="compact" />
+      <ItemCardGrid items={items} variant="compact" withSeeAllCard />
     </div>
   );
 }

@@ -1,12 +1,14 @@
 import { Item } from "@/data/items/item.type";
-import { ItemCard } from "./ItemCard";
+import { ItemCard, SeeAllCard } from "./ItemCard";
 
 export function ItemCardGrid({
   items,
   variant,
+  withSeeAllCard,
 }: {
   items: Item[];
   variant?: "compact" | "default";
+  withSeeAllCard?: boolean;
 }) {
   return (
     <div
@@ -18,6 +20,7 @@ export function ItemCardGrid({
       {items.map((item) => (
         <ItemCard key={item.id} item={item} variant={variant} />
       ))}
+      {withSeeAllCard && <SeeAllCard variant={variant} />}
     </div>
   );
 }

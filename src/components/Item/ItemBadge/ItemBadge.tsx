@@ -3,9 +3,12 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import type { ItemBadge } from "@/data/items/item.type";
+import {
+  itemBadgeIconMap,
+  type ItemBadge,
+  itemBadgeTooltipMap,
+} from "@/data/items/item.type";
 import { cn } from "@/libs/utils";
-import { itemBadgeText } from "@/utils/itemBadgeText";
 
 type ItemBadgeBaseProps = {
   size: string;
@@ -44,14 +47,44 @@ export type BadgeProps = {
   size: string;
 };
 function IsHotItemsBadge({ size }: BadgeProps) {
-  const { text, tooltip } = itemBadgeText("isHot");
+  const icon = itemBadgeIconMap["isHot"];
+  const tooltip = itemBadgeTooltipMap["isHot"];
+
   return (
     <ItemBadgeBase
       size={size}
       className="bg-red-600 bg-opacity-20"
       tooltip={tooltip}
     >
-      {text}
+      {icon}
+    </ItemBadgeBase>
+  );
+}
+function IsNewItemsBadge({ size }: BadgeProps) {
+  const icon = itemBadgeIconMap["isNew"];
+  const tooltip = itemBadgeTooltipMap["isNew"];
+
+  return (
+    <ItemBadgeBase
+      size={size}
+      className="bg-blue-600 bg-opacity-20"
+      tooltip={tooltip}
+    >
+      {icon}
+    </ItemBadgeBase>
+  );
+}
+function FoundedItemsBadge({ size }: BadgeProps) {
+  const icon = itemBadgeIconMap["founded"];
+  const tooltip = itemBadgeTooltipMap["founded"];
+
+  return (
+    <ItemBadgeBase
+      size={size}
+      className="bg-green-600 bg-opacity-20"
+      tooltip={tooltip}
+    >
+      {icon}
     </ItemBadgeBase>
   );
 }
@@ -66,6 +99,10 @@ export function ItemBadge({
   switch (badge) {
     case "isHot":
       return <IsHotItemsBadge size={size} />;
+    case "isNew":
+      return <IsNewItemsBadge size={size} />;
+    case "founded":
+      return <FoundedItemsBadge size={size} />;
     default:
       return null;
   }

@@ -1,32 +1,8 @@
-export type ItemType = "project" | "develop" | "activity" | "design";
-export const itemTypes: ItemType[] = [
-  "project",
-  "develop",
-  "design",
-  "activity",
-];
-export const itemTypeMap: Record<ItemType, string> = {
-  project: "프로젝트",
-  develop: "개발",
-  design: "디자인",
-  activity: "활동",
-};
+import { ItemBadge } from "./types/itemBadge";
+import { ItemTag } from "./types/itemTag";
+import { ItemType } from "./types/itemType";
 
-export type ItemBadge = "isHot" | "isNew";
-export const itemBadges: ItemBadge[] = ["isHot", "isNew"];
-
-export type ItemTag = "";
-export const itemTags: ItemTag[] = [];
-
-export type ItemLevel = 1 | 2 | 3 | 4 | 5;
-export const itemLevelMap: Record<ItemLevel, string> = {
-  1: "메인",
-  2: "서브",
-  3: "취미",
-  4: "장난감",
-  5: "쓰레기",
-};
-
+export * from "./types";
 export interface Item {
   id: string;
   name: string;
@@ -42,5 +18,6 @@ export interface Item {
   updatedAt: string;
   period: string;
   role?: string;
+  curating?: string[];
   stacks?: string[];
 }

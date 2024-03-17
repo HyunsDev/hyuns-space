@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { useDevItem } from "@/hooks/useDevItem";
 import { useNavigate } from "react-router-dom";
 import { UpdateTitle } from "./rows/UpdateTitle";
@@ -14,6 +14,7 @@ import { UpdateStacks } from "./rows/UpdateStacks";
 import { UpdateBadges } from "./rows/UpdateBadge";
 import { UpdateContent } from "./rows/UpdateContent";
 import { UpdateUpdatedAt } from "./rows/UpdateUpdatedAt";
+import { UpdateCurating } from "./rows/UpdateCurating";
 
 function Back() {
   const navigate = useNavigate();
@@ -64,6 +65,7 @@ function EditItem() {
           <UpdateRole />
           <UpdateURL />
           <UpdateURLs />
+          <UpdateCurating />
           <UpdateStacks />
           <UpdateBadges />
           <UpdateUpdatedAt />

@@ -1,7 +1,7 @@
 import { ItemBadge } from "@/components/Item/ItemBadge/ItemBadge";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { Item } from "@/data/items/item.type";
 import { useIsDevMode } from "@/hooks/useIsDevMode";
 import { useItem } from "@/hooks/useItem";
@@ -9,6 +9,7 @@ import { useItems } from "@/hooks/useItems";
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
 
 function PageThumbnail({ item }: { item: Item }) {
   return (
@@ -33,7 +34,15 @@ function PageDescription({ item }: { item: Item }) {
             className="size-12 rounded"
           />
         )}
-        <div className="font-medium text-4xl">{item.name}</div>
+        <div className="font-medium text-4xl">
+          {item.url ? (
+            <a href={item.url} target="_blank" className="hover:underline">
+              {item.name}
+            </a>
+          ) : (
+            item.name
+          )}
+        </div>
       </div>
       <div className="flex flex-col gap-2">
         <div className="text text-muted-foreground">{item.description}</div>
@@ -57,7 +66,12 @@ function PageDescription({ item }: { item: Item }) {
               <span>링크</span>
               <div className="flex flex-col items-end">
                 {item.urls.map((url, index) => (
-                  <a href={url} key={index} className="underline">
+                  <a
+                    href={url}
+                    key={index}
+                    className="underline"
+                    target="_blank"
+                  >
                     {url}
                   </a>
                 ))}
@@ -79,7 +93,9 @@ function PageContent({ item }: { item: Item }) {
   return (
     <div className="py-4">
       <div className="markdown">
-        <Markdown rehypePlugins={[rehypeRaw]}>{item.content}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+          {item.content}
+        </Markdown>
       </div>
     </div>
   );

@@ -5,6 +5,43 @@ import { motion } from "framer-motion";
 import { ItemBadge } from "../ItemBadge/ItemBadge";
 import { useTheme } from "@/components/themeProvider";
 
+export function SeeAllCard({
+  className,
+  variant = "default",
+}: {
+  className?: string;
+  variant?: "default" | "compact";
+}) {
+  const { currentTheme } = useTheme();
+
+  return (
+    <Link to="/items">
+      <motion.div
+        initial={{ y: 12, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          duration: 0.3,
+        }}
+        whileHover={{ y: -4 }}
+        className={cn(
+          "relative w-full max-w-full md:max-w-[290px] rounded-lg",
+          currentTheme === "dark"
+            ? "bg-[rgba(255,255,255,0.1)]"
+            : "bg-[rgba(255,255,255,0.9)] border",
+          variant === "compact" ? "aspect-[1/1.1]" : "aspect-[3/4]",
+          "flex flex-col justify-center items-center",
+          className
+        )}
+      >
+        <div className="w-[290px] h-full flex flex-col items-center justify-center">
+          <div className="text-2xl font-bold">둘러보기</div>
+          <div className="text-gray-500">모든 아이템을 확인해보세요.</div>
+        </div>
+      </motion.div>
+    </Link>
+  );
+}
+
 export function ItemCard({
   item,
   className,
@@ -26,7 +63,7 @@ export function ItemCard({
         }}
         whileHover={{ y: -4 }}
         className={cn(
-          "relative w-full max-w-full md:max-w-[300px] rounded-lg",
+          "relative w-full max-w-full md:max-w-[290px] rounded-lg",
           currentTheme === "dark"
             ? "bg-[rgba(255,255,255,0.1)]"
             : "bg-[rgba(255,255,255,0.9)] border",
