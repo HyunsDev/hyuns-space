@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { useDevItem } from "@/hooks/useDevItem";
 import { useNavigate } from "react-router-dom";
 import { UpdateTitle } from "./rows/UpdateTitle";

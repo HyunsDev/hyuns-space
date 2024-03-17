@@ -1,7 +1,7 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { BackgroundCanvas } from "@/containers/BackgroundCanvas/BackgroundCanvas";
-import { LoadingOverlay } from "@/containers/LoadingOverlay/LoadingOverlay";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { BackgroundCanvas } from "@/containers/main/BackgroundCanvas/BackgroundCanvas";
+import { LoadingOverlay } from "@/containers/main/LoadingOverlay/LoadingOverlay";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { CurationSection } from "@/containers/main/sections/curation/Curation.section";
 import { MainDescriptionSection } from "@/containers/main/sections/description/description";
 import { MainHeroSection } from "@/containers/main/sections/hero/hero.section";

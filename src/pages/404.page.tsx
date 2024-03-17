@@ -1,5 +1,5 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { LoadingOverlay } from "@/containers/LoadingOverlay/LoadingOverlay";
+import { LoadingOverlay } from "@/containers/main/LoadingOverlay/LoadingOverlay";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 

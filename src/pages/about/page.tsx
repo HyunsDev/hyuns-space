@@ -1,8 +1,8 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { motion } from "framer-motion";
 import { DoubleArrowDownIcon } from "@radix-ui/react-icons";
-import { AnimatedText } from "@/containers/AnimatedText/AnimatedText";
+import { AnimatedText } from "@/containers/main/AnimatedText/AnimatedText";
 
 import HyunsLogo from "@/assets/hyuns.png";
 

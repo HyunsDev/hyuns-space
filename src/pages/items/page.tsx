@@ -1,5 +1,5 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";

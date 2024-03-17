@@ -1,4 +1,4 @@
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import {

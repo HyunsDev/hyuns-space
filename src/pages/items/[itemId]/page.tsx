@@ -1,7 +1,7 @@
 import { ItemBadge } from "@/components/Item/ItemBadge/ItemBadge";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { MainHeader } from "@/containers/header/MainHeader";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 import { Item } from "@/data/items/item.type";
 import { useIsDevMode } from "@/hooks/useIsDevMode";
 import { useItem } from "@/hooks/useItem";
