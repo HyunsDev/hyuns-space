@@ -47,7 +47,7 @@ export function MainPage() {
           condition={{
             curating: ["physics"],
           }}
-          title="🚀 웹 물리엔진 시리즈"
+          title="🚀 웹 시뮬레이터 시리즈"
           description="놀라운 시뮬레이션을 체험해보세요"
         />
 
