@@ -54,7 +54,7 @@ export function MainHeader() {
           </Link>
         </div>
         <div className="flex items-center gap-1">
-          <a href="https://hyuns.dev">
+          <a href="https://hyuns.dev?skipLoading=true">
             <Button variant="ghost" className="px-2">
               hyuns.dev
             </Button>
