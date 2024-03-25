@@ -13,7 +13,7 @@
       "isNew"
     ],
     "url": "https://unibook.co",
-    "content": "UniBook은 마크다운을 기반으로 대학 교재 등의 책을 EBook 형태로 판매하는 서비스입니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- Vite (React, SWC)를 이용한 프론트엔드\n- TailwindCSS와 shadcn/ui를 이용한 스타일링\n- @tanstack/query를 이용한 API 캐싱 관리\n- Notification API를 이용한 웹 푸시 알림\n- Notion을 기반으로 한 자체 마크다운 렌더러 개발\n\n### Backend\n- NestJS를 이용한 백엔드 개발\n- Mysql과 TypeORM을 이용한 데이터베이스 관리\n\n### Client\n- `endpoint-client` 라이브러리를 이용한 API 타입 매핑\n- API 타입을 재사용 가능한 라이브러리로 배포\n\n<br>\n\n(비공개 레포지토리)\n\nhttps://www.npmjs.com/package/unibook-client\n\n\n### Desktop\n- `Electron` 을 이용한 데스크탑 앱 개발\n\n\n## 관련 영상\n---\n\n* UniBook 시연 - https://youtu.be/zwilJPQy_zA",
+    "content": "UniBook은 마크다운을 기반으로 대학 교재 등의 책을 EBook 형태로 판매하는 서비스입니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- Vite (React, SWC)를 이용한 프론트엔드\n- TailwindCSS와 shadcn/ui를 이용한 스타일링\n- @tanstack/query를 이용한 API 캐싱 관리\n- Notification API를 이용한 웹 푸시 알림\n- Notion을 기반으로 한 자체 마크다운 렌더러 개발\n\n### Renderer\n* `react-notion-x` 를 기반으로 만든 UniBook Page 렌더러\n\n<br />\n\nhttps://github.com/HyunsDev/unibook-renderer\n\n### Backend\n- NestJS를 이용한 백엔드 개발\n- Mysql과 TypeORM을 이용한 데이터베이스 관리\n\n### Client\n- `endpoint-client` 라이브러리를 이용한 API 타입 매핑\n- API 타입을 재사용 가능한 라이브러리로 배포\n\n<br>\n\nhttps://github.com/HyunsDev/unibook-client\n\nhttps://www.npmjs.com/package/unibook-client\n\n\n### Desktop\n- `Electron` 을 이용한 데스크탑 앱 개발\n\n\n\n\n## 관련 영상\n---\n\n* UniBook 시연 - https://youtu.be/zwilJPQy_zA",
     "updatedAt": "2024-03-18",
     "period": "2021 ~ now",
     "curating": [
@@ -689,5 +689,20 @@
     "updatedAt": "2024-03-17",
     "id": "opize-found",
     "content": "고등학생 시절 취미로 시작했던 프로젝트를 더욱 많은 사람이 이용할 수 있는 서비스로 만들기 위해 설립한 회사입니다. 수익을 추구하는 일반적인 회사가 아닌, 저의 개발 능력을 제한없이 펼치기 위해 설립하였습니다."
+  },
+  {
+    "name": "unibook-renderer",
+    "type": "develop",
+    "description": "UniBook Renderer",
+    "period": "2024.03",
+    "url": "https://github.com/HyunsDev/unibook-renderer",
+    "urls": [
+      "https://github.com/HyunsDev/unibook-renderer"
+    ],
+    "badges": [
+      "isNew"
+    ],
+    "updatedAt": "2024-03-26",
+    "id": "unibook-renderer"
   }
 ]
