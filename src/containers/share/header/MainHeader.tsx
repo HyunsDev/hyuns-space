@@ -54,16 +54,16 @@ export function MainHeader() {
           </Link>
         </div>
         <div className="flex items-center gap-1">
-          <a href="https://hyuns.dev?skipLoading=true">
-            <Button variant="ghost" className="px-2">
-              hyuns.dev
-            </Button>
-          </a>
           <Link to="/items">
             <Button variant="ghost" className="px-2">
               둘러보기
             </Button>
           </Link>
+          <a href="https://hyuns.dev?skipLoading=true">
+            <Button variant="ghost" className="px-2">
+              hyuns.dev
+            </Button>
+          </a>
           <ThemeButton />
         </div>
       </div>
