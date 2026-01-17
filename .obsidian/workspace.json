@@ -14,9 +14,9 @@
               "type": "bases",
               "state": {
                 "file": "public/items/items.base",
-                "viewName": "큐레이션"
+                "viewName": "테이블"
               },
-              "icon": "lucide-layout-grid",
+              "icon": "lucide-table",
               "title": "items"
             }
           }
@@ -196,10 +196,15 @@
   },
   "active": "8b8c3e84815a1754",
   "lastOpenFiles": [
-    "public/items/hyuns-pkm-utils-web/hyuns-pkm-utils-web.md",
+    "public/items/month-end-settlement/month-end-settlement.md",
     "public/items/items.base",
-    "public/items/rotor/rotor.md",
+    "public/items/monty-hall-problem/monty-hall-problem.md",
+    "public/items/discord-webhook/discord-webhook.md",
+    "public/items/endpoint-client/endpoint-client.md",
+    "public/items/unibook-renderer/unibook-renderer.md",
     "public/items/obsidian-slash-comment/obsidian-slash-comment.md",
+    "public/items/hyuns-pkm-utils-web/hyuns-pkm-utils-web.md",
+    "public/items/rotor/rotor.md",
     "public/items/board-playground/board-playground.md",
     "public/items/calendar2notion/calendar2notion.md",
     "public/items/hyuns-pkm-utils-web/thumbnail.png",
@@ -220,8 +225,6 @@
     "public/items/board-playground/logo.png",
     "public/items/board-playground/Pasted image 20260117142350.png",
     "public/items/board-playground",
-    "public/items/month-end-settlement/month-end-settlement.md",
-    "public/items/unibook-renderer/unibook-renderer.md",
     "vite.config.ts.timestamp-1768626476027-cff5e18d49f52.mjs",
     "public/items/month-end-settlement/thumbnail.png",
     "public/items/month-end-settlement",
@@ -237,9 +240,6 @@
     "public/items/whatto-seoryeong/whatto-seoryeong.md",
     "public/items/seosan-start/seosan-start.md",
     "public/items/resourcepack-uploader/resourcepack-uploader.md",
-    "public/items/monty-hall-problem/monty-hall-problem.md",
-    "public/items/pos-touch-speed-game/pos-touch-speed-game.md",
-    "public/items/physics-refaction-simulator/physics-refaction-simulator.md",
-    "public/items/scrum/scrum.md"
+    "public/items/pos-touch-speed-game/pos-touch-speed-game.md"
   ]
 }

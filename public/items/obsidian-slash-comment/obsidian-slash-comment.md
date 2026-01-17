@@ -8,6 +8,7 @@ period: 2026년
 tags:
 curating:
   - tertiary
+  - package
 role:
 logoImage:
 url: https://github.com/HyunsDev/obsidian-slash-comment

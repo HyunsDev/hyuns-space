@@ -397,6 +397,11 @@
             "value": "physics",
             "label": "",
             "bgColor": "var(--better-properties-select-cyan)"
+          },
+          {
+            "value": "package",
+            "label": "",
+            "bgColor": "var(--better-properties-select-gray)"
           }
         ]
       },

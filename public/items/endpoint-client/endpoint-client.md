@@ -11,5 +11,7 @@ urls:
 period: 2023년
 updatedAt: 2024-03-13
 order: 2023
+curating:
+  - package
 ---
 

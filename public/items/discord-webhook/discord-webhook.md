@@ -8,5 +8,7 @@ updatedAt: 2024-03-17
 thumbnailImage: items/discord-webhook/thumbnail.png
 order: 2023
 period: 2023년
+curating:
+  - package
 ---
 

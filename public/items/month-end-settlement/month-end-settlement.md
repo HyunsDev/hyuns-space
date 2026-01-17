@@ -14,4 +14,3 @@ urls:
 updatedAt:
 thumbnailImage: items/month-end-settlement/thumbnail.png
 ---
-![[public/items/month-end-settlement/thumbnail.png]]

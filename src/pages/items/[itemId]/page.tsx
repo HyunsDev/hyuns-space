@@ -51,10 +51,10 @@ function PageDescription({ item }: { item: Item }) {
             <span>활동기간</span>
             <span>{item.period}</span>
           </div>
-          <div className="flex justify-between">
+          {/* <div className="flex justify-between">
             <span>내용 업데이트</span>
             <span>{item.updatedAt}</span>
-          </div>
+          </div> */}
           {item.role && (
             <div className="flex justify-between">
               <span>역할</span>

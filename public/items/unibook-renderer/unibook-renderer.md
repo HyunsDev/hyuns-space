@@ -10,5 +10,7 @@ period: 2024년
 updatedAt: 2024-03-26
 thumbnailImage: items/unibook-renderer/thumbnail.png
 order: 2024
+curating:
+  - package
 ---
 
