@@ -1,7 +1,6 @@
 ---
-id: raycaster
 name: 레이케스터
-type: project
+type: product
 description: 혀느현스 시뮬레이터 시리즈
 thumbnailImage: items/raycaster/thumbnail.png
 tags: []

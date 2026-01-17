@@ -1,7 +1,6 @@
 ---
-id: hyuns-dash
 name: Hyuns Dash
-type: project
+type: product
 description: 개인 대시보드
 thumbnailImage: items/hyuns-dash/thumbnail.png
 logoImage: items/hyuns-dash/logo.png
@@ -14,7 +13,6 @@ urls:
 period: 2025년
 updatedAt: 2024-03-13
 curating:
-  - secondary
 order: 2025
 ---
 

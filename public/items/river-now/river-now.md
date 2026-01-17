@@ -1,7 +1,6 @@
 ---
-id: river-now
 name: 리버나우
-type: project
+type: product
 description: 리버나우
 thumbnailImage: items/river-now/thumbnail.png
 tags: []

@@ -1,7 +1,6 @@
 ---
-id: moyeo
 name: Moyeo 모여!
-type: project
+type: product
 description: 대학생을 위한 모여!
 thumbnailImage: items/moyeo/thumbnail.png
 logoImage: items/moyeo/logo.png
@@ -13,7 +12,6 @@ urls:
 period: 2024.05 ~ 2024.11
 updatedAt: 2024-03-13
 curating:
-  - secondary
 order: 2023
 ---
 

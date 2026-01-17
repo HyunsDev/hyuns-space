@@ -15,7 +15,7 @@
     "iconEnabled": false,
     "iconSize": 96,
     "iconRadius": 8,
-    "iconBackground": true,
+    "iconBackground": false,
     "iconBorder": 2,
     "iconAlignment": [
       "flex-start",
@@ -122,7 +122,7 @@
   "properties": {
     "autohide": false,
     "image": "thumbnailImage",
-    "icon": "icon",
+    "icon": "logoImage",
     "datetime": "datetime"
   }
 }

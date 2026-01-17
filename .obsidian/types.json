@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "type": "better-properties:select",
-    "order": "number"
+    "order": "number",
+    "curating": "better-properties:multiselect"
   }
 }

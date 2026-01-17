@@ -1,7 +1,6 @@
 ---
-id: hyuns-dashboard
 name: Hyuns Dashboard
-type: project
+type: product
 description: 개인 대시보드
 thumbnailImage: items/hyuns-dashboard/thumbnail.png
 logoImage: items/hyuns-dashboard/logo.png

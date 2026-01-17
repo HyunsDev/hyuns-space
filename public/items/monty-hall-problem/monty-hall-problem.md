@@ -1,7 +1,6 @@
 ---
-id: monty-hall-problem
 name: 몬티 홀 문제 with p5.js
-type: project
+type: product
 description: p5.js로 몬티홀 문제 풀어보기
 url: https://hyunsdev.github.io/SSR-monty-hall-problem-p5js
 urls:

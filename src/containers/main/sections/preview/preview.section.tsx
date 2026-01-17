@@ -8,7 +8,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export function MainPreviewSection() {
-  const [type, setType] = useState<ItemType>("project");
+  const [type, setType] = useState<ItemType>("product");
   const { items } = useItems({
     type: type,
     limit: 9,

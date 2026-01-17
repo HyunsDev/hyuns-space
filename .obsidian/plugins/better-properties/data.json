@@ -81,7 +81,8 @@
     "type": {
       "general": {
         "icon": "",
-        "hidden": false
+        "hidden": false,
+        "defaultValue": "unlisted"
       },
       "array": {},
       "select": {
@@ -89,19 +90,28 @@
         "optionsType": "manual",
         "manualOptions": [
           {
-            "value": "project",
-            "label": "",
+            "value": "product",
+            "label": "Product/Service",
             "bgColor": "var(--better-properties-select-blue)"
           },
           {
             "value": "activity",
-            "label": "",
+            "label": "Activity",
             "bgColor": "var(--better-properties-select-orange)"
           },
           {
-            "value": "develop",
-            "label": "",
+            "value": "code",
+            "label": "Code/Package",
             "bgColor": "var(--better-properties-select-green)"
+          },
+          {
+            "value": "content",
+            "label": "Content",
+            "bgColor": "var(--better-properties-select-cyan)"
+          },
+          {
+            "value": "unlisted",
+            "label": ""
           }
         ]
       },
@@ -366,7 +376,29 @@
         "optionsType": "manual"
       },
       "multiselect": {
-        "optionsType": "manual"
+        "optionsType": "manual",
+        "manualOptions": [
+          {
+            "value": "primary",
+            "label": "",
+            "bgColor": "var(--better-properties-select-red)"
+          },
+          {
+            "value": "secondary",
+            "label": "",
+            "bgColor": "var(--better-properties-select-orange)"
+          },
+          {
+            "value": "tertiary",
+            "label": "",
+            "bgColor": "var(--better-properties-select-yellow)"
+          },
+          {
+            "value": "physics",
+            "label": "",
+            "bgColor": "var(--better-properties-select-cyan)"
+          }
+        ]
       },
       "toggle": {},
       "title": {},
@@ -410,6 +442,32 @@
     "order": {
       "general": {
         "icon": "lucide-sort-asc",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "repositoryurl": {
+      "general": {
+        "icon": "",
         "hidden": false
       },
       "array": {},

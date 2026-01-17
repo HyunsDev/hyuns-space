@@ -1,7 +1,6 @@
 ---
-id: one-touch-self-check
 name: 원터치 자가진단
-type: project
+type: product
 description: 원터치 자가진단
 thumbnailImage: items/one-touch-self-check/thumbnail.png
 logoImage: items/one-touch-self-check/logo.png

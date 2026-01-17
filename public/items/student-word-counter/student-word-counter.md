@@ -1,7 +1,6 @@
 ---
-id: student-word-counter
 name: 학생부/자소서 글자수 계산기
-type: project
+type: product
 description: 학생부/자소서 글자수 계산기
 thumbnailImage: items/student-word-counter/thumbnail.png
 tags: []

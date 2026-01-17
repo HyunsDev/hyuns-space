@@ -1,7 +1,6 @@
 ---
-id: gyro-ball
 name: 자이로볼
-type: project
+type: product
 description: 자이로 센서를 이용한 프로젝트
 thumbnailImage: items/gyro-ball/thumbnail.png
 tags: []

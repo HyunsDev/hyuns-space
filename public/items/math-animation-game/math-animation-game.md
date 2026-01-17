@@ -1,7 +1,6 @@
 ---
-id: math-animation-game
 name: 펭귄 스케이팅 게임
-type: project
+type: product
 description: 펭귄 스케이팅 with 미적분
 url: https://hyunsdev.github.io/math-animation-game
 urls:

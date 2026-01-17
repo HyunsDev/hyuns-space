@@ -1,7 +1,6 @@
 ---
-id: calendar2notion
 name: Calendar2Notion
-type: project
+type: product
 description: Notion에 일정을 추가하는 웹앱
 thumbnailImage: items/calendar2notion/thumbnail.png
 logoImage: items/calendar2notion/logo.png

@@ -1,7 +1,6 @@
 ---
-id: express-terminal
 name: 온라인 미술관 - 고속터미널 팀
-type: project
+type: product
 description: 숭실대학교 Art&Technology 2023년도 1학기 고속터미널 팀
 thumbnailImage: items/express-terminal/thumbnail.png
 tags: []

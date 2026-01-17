@@ -1,7 +1,6 @@
 ---
-id: whatto-seoryeong
 name: 내일서령
-type: project
+type: product
 description: 서령고등학교 앱
 tags: []
 badges: []

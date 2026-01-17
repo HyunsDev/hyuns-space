@@ -61,6 +61,20 @@ function PageDescription({ item }: { item: Item }) {
               <span>{item.role}</span>
             </div>
           )}
+          {item.repositoryUrl && (
+            <div className="flex justify-between">
+              <span>레포지토리</span>
+              <a
+                href={item.repositoryUrl}
+                className="underline"
+                target="_blank"
+              >
+                {item.repositoryUrl
+                  .replace("https://github.com/", "")
+                  .toLowerCase()}
+              </a>
+            </div>
+          )}
           {item.urls && (
             <div className="flex justify-between">
               <span>링크</span>

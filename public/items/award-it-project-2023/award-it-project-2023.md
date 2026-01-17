@@ -1,5 +1,4 @@
 ---
-id: award-it-project-2023
 name: IT 프로젝트
 type: activity
 description: 숭실대학교 IT프로젝트 우수상

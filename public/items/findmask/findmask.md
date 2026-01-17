@@ -1,7 +1,6 @@
 ---
-id: findmask
 name: 마스크찾아줌
-type: project
+type: product
 description: 공공 데이터를 활용한 마스크 재고 확인 서비스
 logoImage: items/findmask/logo.png
 tags: []

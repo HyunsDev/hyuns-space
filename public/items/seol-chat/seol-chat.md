@@ -1,7 +1,6 @@
 ---
-id: seol-chat
 name: 설챗
-type: project
+type: product
 description: 설치형 비공개 채팅 서비스
 tags: []
 badges: []

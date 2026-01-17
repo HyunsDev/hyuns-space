@@ -1,13 +1,11 @@
 ---
-id: bluessu
 name: BlueSSU 블루슈
-type: project
+type: product
 description: 숭실대학교 오픈소스 API 프로젝트
 thumbnailImage: items/bluessu/thumbnail.png
 logoImage: items/bluessu/logo.png
 tags: []
 badges:
-  - isHot
 url: https://ssu.blue
 urls:
   - https://ssu.blue

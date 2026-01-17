@@ -1,7 +1,6 @@
 ---
-id: whatclockisit
 name: 지금몇시계
-type: project
+type: product
 description: 바탕화면 속 조그만 아이
 tags: []
 badges: []

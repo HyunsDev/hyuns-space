@@ -1,5 +1,4 @@
 ---
-id: notion-calendar2notion-youtube
 name: Happy Notion's Year Korea 2022 웨비나 발표
 type: activity
 description: 노션과 구글 캘린더 연동하기

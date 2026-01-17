@@ -23,6 +23,7 @@ const func = async () => {
 
     items.push({
       ...data,
+      id: fileName,
       thumbnailImage: `/${data.thumbnailImage}`,
       logoImage: data.logoImage ? `/${data.logoImage}` : undefined,
       updatedAt: data.updatedAt

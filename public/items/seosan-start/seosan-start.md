@@ -1,7 +1,6 @@
 ---
-id: seosan-start
 name: 서산 Start
-type: project
+type: product
 description: 서산시 지역 관광지 서비스
 logoImage: items/seosan-start/logo.png
 tags: []

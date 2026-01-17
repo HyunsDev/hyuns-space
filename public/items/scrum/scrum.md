@@ -1,7 +1,6 @@
 ---
-id: scrum
 name: Scrum 스크럼
-type: project
+type: product
 description: 대학생 커뮤니티
 tags: []
 badges: []

@@ -1,7 +1,6 @@
 ---
-id: notion-tools
 name: Notion Tools - 노션툴즈
-type: project
+type: product
 description: "노션을 위한 All in One 웹사이트 "
 thumbnailImage: items/notion-tools/thumbnail.png
 tags: []

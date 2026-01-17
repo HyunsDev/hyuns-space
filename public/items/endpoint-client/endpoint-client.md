@@ -1,7 +1,6 @@
 ---
-id: endpoint-client
 name: endpoint-client
-type: develop
+type: code
 description: 타입 안전한 API 엔드포인트 추상화
 thumbnailImage: items/endpoint-client/thumbnail.png
 tags: []

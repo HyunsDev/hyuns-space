@@ -1,7 +1,6 @@
 ---
-id: unibook
 name: UniBook 유니북
-type: project
+type: product
 description: 새로운 대학 교재의 세계
 thumbnailImage: items/unibook/thumbnail.png
 logoImage: items/unibook/logo.png

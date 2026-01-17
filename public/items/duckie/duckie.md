@@ -1,7 +1,6 @@
 ---
-id: duckie
 name: Duckie 덕키
-type: project
+type: product
 description: Duckie 덕키
 thumbnailImage: items/duckie/thumbnail.png
 tags: []

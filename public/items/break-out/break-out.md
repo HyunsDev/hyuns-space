@@ -1,7 +1,6 @@
 ---
-id: break-out
 name: 벽돌깨기
-type: project
+type: product
 description: 숭실대학교 Art&Technology 수업 과제로 제작한 벽돌깨기 게임
 thumbnailImage: items/break-out/thumbnail.png
 tags: []

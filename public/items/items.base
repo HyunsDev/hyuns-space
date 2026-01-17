@@ -20,6 +20,8 @@ views:
       - url
       - urls
       - updatedAt
+      - thumbnailImage
+      - repositoryUrl
     sort:
       - property: order
         direction: DESC
@@ -27,7 +29,7 @@ views:
         direction: ASC
     columnSize:
       note.name: 253
-      note.type: 73
+      note.type: 160
       note.order: 79
       note.badges: 118
       note.period: 150
@@ -49,6 +51,20 @@ views:
     name: 큐레이션
     groupBy:
       property: curating
+      direction: ASC
+    order:
+      - file.name
+      - name
+    sort:
+      - property: order
+        direction: DESC
+    image: note.thumbnailImage
+    imageAspectRatio: 0.55
+    cardSize: 210
+  - type: cards
+    name: 뱃지
+    groupBy:
+      property: badges
       direction: ASC
     order:
       - file.name

@@ -1,7 +1,6 @@
 ---
-id: resourcepack-uploader
 name: 리로스팩 업로더
-type: project
+type: product
 description: 마인크레프트 하려고 만든 프로젝트
 thumbnailImage: items/resourcepack-uploader/thumbnail.png
 tags: []

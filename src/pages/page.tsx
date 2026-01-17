@@ -37,6 +37,14 @@ export function MainPage() {
 
         <CurationSection
           condition={{
+            curating: ["tertiary"],
+          }}
+          title="🌈 Tertiary 프로젝트"
+          description="다양한 시도를 담은 프로젝트들입니다"
+        />
+
+        <CurationSection
+          condition={{
             badges: ["isHot"],
           }}
           title="🔥 Hot 프로젝트"

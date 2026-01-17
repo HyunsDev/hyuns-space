@@ -1,7 +1,6 @@
 ---
-id: unibook-renderer
 name: unibook-renderer
-type: develop
+type: code
 description: UniBook Renderer
 badges:
 url: https://github.com/HyunsDev/unibook-renderer

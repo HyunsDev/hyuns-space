@@ -7,7 +7,7 @@ import { useItems } from "@/hooks/useItems";
 import { useState } from "react";
 
 export function ItemsPage() {
-  const [type, setType] = useState<ItemType>("project");
+  const [type, setType] = useState<ItemType>("product");
   const { items } = useItems({
     type: type,
   });

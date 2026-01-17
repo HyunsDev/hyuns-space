@@ -1,7 +1,6 @@
 ---
-id: space-gravity
 name: 스페이스 그래비티
-type: project
+type: product
 description: 혀느현스 시뮬레이터 시리즈
 thumbnailImage: items/space-gravity/thumbnail.png
 logoImage: items/space-gravity/logo.png
@@ -13,7 +12,6 @@ urls:
 period: 2022년
 updatedAt: 2024-03-13
 curating:
-  - secondary
   - physics
 order: 2022
 ---

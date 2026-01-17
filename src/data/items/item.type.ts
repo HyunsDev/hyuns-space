@@ -14,6 +14,7 @@ export interface Item {
   tags: ItemTag[];
   badges?: ItemBadge[];
   url?: string;
+  repositoryUrl?: string;
   urls?: string[];
   updatedAt: string;
   period: string;

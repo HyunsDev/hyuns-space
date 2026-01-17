@@ -1,7 +1,6 @@
 ---
-id: whatto
 name: 내일뭐함
-type: project
+type: product
 description: 전국 초/중/고 학교 앱
 tags: []
 badges: []

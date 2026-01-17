@@ -88,12 +88,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "412a27119417dd50",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "public/items/items.base"
+              },
+              "icon": "lucide-info",
+              "title": "items 의 파일 속성"
+            }
+          },
+          {
             "id": "c4f4922cac46e8fc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/items/items.base",
+                "file": "public/items/board-playground/board-playground.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "items 의 백링크"
+              "title": "board-playground 의 백링크"
             }
           },
           {
@@ -155,22 +167,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public/items/items.base",
+                "file": "public/items/board-playground/board-playground.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "items 의 개요"
+              "title": "board-playground 의 개요"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,47 +196,50 @@
   },
   "active": "8b8c3e84815a1754",
   "lastOpenFiles": [
+    "public/items/hyuns-pkm-utils-web/hyuns-pkm-utils-web.md",
+    "public/items/items.base",
+    "public/items/rotor/rotor.md",
+    "public/items/obsidian-slash-comment/obsidian-slash-comment.md",
+    "public/items/board-playground/board-playground.md",
+    "public/items/calendar2notion/calendar2notion.md",
+    "public/items/hyuns-pkm-utils-web/thumbnail.png",
+    "public/items/hyuns-pkm-utils-web",
+    "public/items/Pasted image 20260117143720.png",
+    "public/items/bluessu/bluessu.md",
+    "public/items/rotor/thumbnail.png",
+    "public/items/thumbnail/thumbnail.png",
+    "public/items/rotor",
+    "public/items/hyuns-dash/hyuns-dash.md",
+    "public/items/opize-design-system/opize-design-system.md",
+    "public/items/space-gravity/space-gravity.md",
+    "public/items/opize/opize.md",
+    "public/items/moyeo/moyeo.md",
+    "public/items/sbld-conf/sbld-conf.md",
+    "public/items/ai-trash-can/ai-trash-can.md",
+    "public/items/board-playground/thumbnail.png",
+    "public/items/board-playground/logo.png",
+    "public/items/board-playground/Pasted image 20260117142350.png",
+    "public/items/board-playground",
+    "public/items/month-end-settlement/month-end-settlement.md",
+    "public/items/unibook-renderer/unibook-renderer.md",
+    "vite.config.ts.timestamp-1768626476027-cff5e18d49f52.mjs",
+    "public/items/month-end-settlement/thumbnail.png",
+    "public/items/month-end-settlement",
+    "public/items/obsidian-slash-comment/thumbnail.png",
+    "public/items/obsidian-slash-comment",
     "public/seal/thumbnail.png",
-    "public/seal/logo.png",
     "public/seal",
     "public/items/ardulight/ardulight.md",
-    "public/items/items.base",
     "public/items/whatto/whatto.md",
     "src/data/items/data.json",
     "src/data/items/_data.json",
-    "public/seal-chat/thumbnail.png",
-    "public/seal-chat/logo.png",
-    "public/seal-chat",
-    "public/__archived__",
-    "public/items/ardulight/logo.png",
-    "public/items/ardulight/thumbnail.png",
-    "pnpm-lock.yaml.440833562",
-    "cli/md-to-data.ts",
     "public/items/award-it-project-2023/award-it-project-2023.md",
     "public/items/whatto-seoryeong/whatto-seoryeong.md",
-    "public/items/hyuns-dash/hyuns-dash.md",
     "public/items/seosan-start/seosan-start.md",
     "public/items/resourcepack-uploader/resourcepack-uploader.md",
     "public/items/monty-hall-problem/monty-hall-problem.md",
     "public/items/pos-touch-speed-game/pos-touch-speed-game.md",
     "public/items/physics-refaction-simulator/physics-refaction-simulator.md",
-    "public/items/scrum/scrum.md",
-    "public/items/sbld-conf/sbld-conf.md",
-    "public/items/river-now/river-now.md",
-    "public/items/ai-trash-can/ai-trash-can.md",
-    "items/ai-trash-can/ai-trash-can.md",
-    "items/award-it-project-2023/award-it-project-2023.md",
-    "items/items.base",
-    "items/bluessu/bluessu.md",
-    "items/award-open-data-2022/award-open-data-2022.md",
-    "items/gyro-ball/gyro-ball.md",
-    "items/findmask/findmask.md",
-    "public/items/unibook-renderer/unibook-renderer.md",
-    "public/items/opize-found/opize-found.md",
-    "public/items/notion-calendar2notion-youtube/notion-calendar2notion-youtube.md",
-    "public/items/award-sw-founded-ideaton-2023/award-sw-founded-ideaton-2023.md",
-    "public/items/award-open-data-2022/award-open-data-2022.md",
-    "public/items/resourcepack-uploader/thumbnail.png",
-    "public/items/resourcepack-uploader"
+    "public/items/scrum/scrum.md"
   ]
 }

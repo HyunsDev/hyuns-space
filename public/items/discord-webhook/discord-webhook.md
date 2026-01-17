@@ -1,7 +1,6 @@
 ---
-id: discord-webhook
 name: "@hyunsdev/discord-webhook"
-type: develop
+type: code
 description: npm discord webhook library
 urls:
   - https://www.npmjs.com/package/@hyunsdev/discord-webhook

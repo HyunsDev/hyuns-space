@@ -1,5 +1,4 @@
 ---
-id: opize-found
 name: Opize 설립
 type: activity
 description: 더욱 편리한 생산성 라이프를 위한 프로젝트, Opize를 설립(사업자 등록)

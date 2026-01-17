@@ -1,13 +1,8 @@
-export type ItemType = "project" | "develop" | "activity" | "design";
-export const itemTypes: ItemType[] = [
-  "project",
-  "develop",
-  "design",
-  "activity",
-];
+export type ItemType = "product" | "code" | "content" | "activity";
+export const itemTypes: ItemType[] = ["product", "code", "content", "activity"];
 export const itemTypeMap: Record<ItemType, string> = {
-  project: "프로젝트",
-  develop: "개발",
-  design: "디자인",
-  activity: "활동",
+  product: "Product/Service",
+  code: "Code/Package",
+  content: "Content",
+  activity: "Activity",
 };

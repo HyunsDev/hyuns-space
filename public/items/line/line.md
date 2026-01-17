@@ -1,7 +1,6 @@
 ---
-id: line
 name: 한줄한줄
-type: project
+type: product
 description: 한줄한줄 글쓰기
 tags: []
 badges: []

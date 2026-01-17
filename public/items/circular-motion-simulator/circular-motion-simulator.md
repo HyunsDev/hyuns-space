@@ -1,7 +1,6 @@
 ---
-id: circular-motion-simulator
 name: 원 운동 시뮬레이터
-type: project
+type: product
 description: 혀느현스 시뮬레이터 시리즈
 thumbnailImage: items/circular-motion-simulator/thumbnail.png
 tags: []
