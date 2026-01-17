@@ -1,0 +1,15 @@
+---
+name: 덕키 오픈소스
+type: product
+description: 덕키의 오픈소스 페이지
+thumbnailImage: items/duckie-open-source/thumbnail.png
+tags: []
+badges: []
+url: https://opensource.duckie.team
+urls:
+  - https://opensource.duckie.team
+period: 2022년
+updatedAt: 2024-03-13
+order: 2022
+---
+

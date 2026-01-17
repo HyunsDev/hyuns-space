@@ -1,14 +1,17 @@
+import { useState } from "react";
+
+import { ArrowRightIcon } from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
+
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";
 import { useItems } from "@/hooks/useItems";
-import { ArrowRightIcon } from "@radix-ui/react-icons";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+
 
 export function MainPreviewSection() {
-  const [type, setType] = useState<ItemType>("project");
+  const [type, setType] = useState<ItemType>("product");
   const { items } = useItems({
     type: type,
     limit: 9,
@@ -16,7 +19,7 @@ export function MainPreviewSection() {
 
   return (
     <div className="max-w-max-screen w-full px-4 md:px-8 m-auto mt-[200px] space-y-4">
-      <div className="text-2xl font-bold">모든 아이템</div>
+      <div className="text-2xl font-bold">둘러보기</div>
       <div className="flex justify-between gap-2">
         <ToggleGroup
           type="single"

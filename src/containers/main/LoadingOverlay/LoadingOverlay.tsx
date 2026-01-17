@@ -1,8 +1,10 @@
-import { isShowingOverlayAtom } from "@/atoms/isShowingOverlay.atom";
-import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
+import { AnimatePresence, motion } from "framer-motion";
 import { useSearchParams } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
+
+import { isShowingOverlayAtom } from "@/atoms/isShowingOverlay.atom";
 
 export function LoadingOverlay({
   texts,
@@ -24,6 +26,7 @@ export function LoadingOverlay({
   useEffect(() => {
     if (alreadyLoading) {
       sessionStorage.setItem("alreadyLoading", "true");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsShow(false);
       setIsShowingOverlay(false);
       return;

@@ -1,0 +1,18 @@
+---
+name: 포물선 운동 시뮬레이터
+type: product
+description: 혀느현스 시뮬레이터 시리즈
+thumbnailImage: items/parabolic-motion-simulator/thumbnail.png
+tags: []
+badges: []
+url: https://pendulum.hyuns.dev
+urls:
+  - https://pendulum.hyuns.dev
+period: 2022년
+updatedAt: 2024-03-13
+curating:
+  - physics
+order: 2022
+---
+
+<iframe src="https://pendulum.hyuns.dev" class="web-embed">

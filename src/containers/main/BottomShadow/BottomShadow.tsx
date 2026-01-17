@@ -1,6 +1,7 @@
+import { useEffect, useState } from "react";
+
 import { useTheme } from "@/components/themeProvider";
 import { cn } from "@/libs/utils";
-import { useEffect, useState } from "react";
 
 export function BottomShadow({
   startY,

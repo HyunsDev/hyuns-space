@@ -1,11 +1,11 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { BackgroundCanvas } from "@/containers/main/BackgroundCanvas/BackgroundCanvas";
 import { LoadingOverlay } from "@/containers/main/LoadingOverlay/LoadingOverlay";
-import { MainHeader } from "@/containers/share/header/MainHeader";
 import { CurationSection } from "@/containers/main/sections/curation/Curation.section";
 import { MainDescriptionSection } from "@/containers/main/sections/description/description";
 import { MainHeroSection } from "@/containers/main/sections/hero/hero.section";
 import { MainPreviewSection } from "@/containers/main/sections/preview/preview.section";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 
 export function MainPage() {
   return (
@@ -32,7 +32,15 @@ export function MainPage() {
             curating: ["secondary"],
           }}
           title="🌙 Secondary 프로젝트"
-          description="많은 정성을 담은 사이드 프로젝트입니다"
+          description="많은 정성을 담은 프로젝트입니다"
+        />
+
+        <CurationSection
+          condition={{
+            curating: ["tertiary"],
+          }}
+          title="🌈 Tertiary 프로젝트"
+          description="다양한 시도를 담은 프로젝트들입니다"
         />
 
         <CurationSection
@@ -41,6 +49,14 @@ export function MainPage() {
           }}
           title="🔥 Hot 프로젝트"
           description="지금도 열심히 개발 중이에요"
+        />
+
+        <CurationSection
+          condition={{
+            curating: ["package"],
+          }}
+          title="📦 자체제작 패키지"
+          description="직접 만들고 관리하는 오픈소스 패키지들입니다"
         />
 
         <CurationSection

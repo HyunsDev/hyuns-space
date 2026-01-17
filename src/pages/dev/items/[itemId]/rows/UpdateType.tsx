@@ -1,5 +1,5 @@
-import { ItemType, itemTypes } from "@/data/items/item.type";
-import { useDevItem } from "@/hooks/useDevItem";
+import { UpdateRow } from "./UpdateRow";
+
 import {
   Select,
   SelectContent,
@@ -7,7 +7,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { UpdateRow } from "./UpdateRow";
+import { ItemType, itemTypes } from "@/data/items/item.type";
+import { useDevItem } from "@/hooks/useDevItem";
 
 export function UpdateType() {
   const { editingItem, setEditingItem } = useDevItem();

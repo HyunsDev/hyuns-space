@@ -1,6 +1,7 @@
+import { ReactNode } from "react";
+
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { UseItemsOptions, useItems } from "@/hooks/useItems";
-import { ReactNode } from "react";
 
 export function CurationSection({
   condition,

@@ -1,7 +1,8 @@
-import { useDevItem } from "@/hooks/useDevItem";
 import { UpdateRow } from "./UpdateRow";
+
 import { Textarea } from "@/components/ui/textarea";
 import { ItemBadge, itemBadges } from "@/data/items/item.type";
+import { useDevItem } from "@/hooks/useDevItem";
 
 export function UpdateBadges() {
   const { editingItem, setEditingItem } = useDevItem();

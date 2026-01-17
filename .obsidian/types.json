@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "type": "better-properties:select",
+    "order": "number",
+    "curating": "better-properties:multiselect"
+  }
+}

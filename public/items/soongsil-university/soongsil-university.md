@@ -1,0 +1,10 @@
+---
+name: 숭실대학교 글로벌미디어학부
+type: activity
+description: 숭실대학교 글로벌미디어학부 재학, 컴퓨터학부 복수 전공
+period: 2023년 ~ 현재
+updatedAt: 2024-03-17
+thumbnailImage: items/soongsil-university/thumbnail.png
+order: 2023
+---
+

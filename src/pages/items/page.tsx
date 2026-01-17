@@ -1,13 +1,15 @@
-import { PageContainer } from "@/components/PageContainer/PageContainer";
-import { MainHeader } from "@/containers/share/header/MainHeader";
-import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";
-import { useItems } from "@/hooks/useItems";
 import { useState } from "react";
 
+import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
+import { PageContainer } from "@/components/PageContainer/PageContainer";
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { MainHeader } from "@/containers/share/header/MainHeader";
+import { ItemType, itemTypeMap, itemTypes } from "@/data/items/item.type";
+import { useItems } from "@/hooks/useItems";
+
+
 export function ItemsPage() {
-  const [type, setType] = useState<ItemType>("project");
+  const [type, setType] = useState<ItemType>("product");
   const { items } = useItems({
     type: type,
   });

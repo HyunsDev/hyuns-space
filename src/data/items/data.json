@@ -1,195 +1,88 @@
 [
   {
-    "id": "unibook",
-    "name": "UniBook 유니북",
-    "type": "project",
-    "description": "새로운 대학 교재의 세계",
-    "thumbnailImage": "/items/unibook/thumbnail.png",
-    "logoImage": "/items/unibook/logo.png",
-    "tags": [],
+    "name": "Board Playground",
+    "type": "product",
+    "order": 2026,
+    "description": "다양한 기술스택을 사용하는 게시판 서비스",
     "badges": [
-      "founded",
       "isHot",
       "isNew"
     ],
-    "url": "https://unibook.co",
-    "content": "UniBook은 마크다운을 기반으로 대학 교재 등의 책을 EBook 형태로 판매하는 서비스입니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- Vite (React, SWC)를 이용한 프론트엔드\n- TailwindCSS와 shadcn/ui를 이용한 스타일링\n- @tanstack/query를 이용한 API 캐싱 관리\n- Notification API를 이용한 웹 푸시 알림\n- Notion을 기반으로 한 자체 마크다운 렌더러 개발\n\n### Renderer\n* `react-notion-x` 를 기반으로 만든 UniBook Page 렌더러\n\n<br />\n\nhttps://github.com/HyunsDev/unibook-renderer\n\n### Backend\n- NestJS를 이용한 백엔드 개발\n- Mysql과 TypeORM을 이용한 데이터베이스 관리\n\n### Client\n- `endpoint-client` 라이브러리를 이용한 API 타입 매핑\n- API 타입을 재사용 가능한 라이브러리로 배포\n\n<br>\n\nhttps://github.com/HyunsDev/unibook-client\n\nhttps://www.npmjs.com/package/unibook-client\n\n\n### Desktop\n- `Electron` 을 이용한 데스크탑 앱 개발\n\n\n\n\n## 관련 영상\n---\n\n* UniBook 시연 - https://youtu.be/zwilJPQy_zA",
-    "updatedAt": "2024-03-18",
-    "period": "2021 ~ now",
+    "period": "2026년 ~ 현재",
+    "tags": null,
     "curating": [
-      "primary"
+      "secondary"
     ],
-    "role": "기획, UX/UI, 백엔드, 프론트엔드, 출판/편집",
-    "urls": [
-      "https://unibook.co"
-    ]
+    "role": null,
+    "logoImage": "/items/board-playground/logo.png",
+    "url": null,
+    "urls": null,
+    "thumbnailImage": "/items/board-playground/thumbnail.png",
+    "repositoryUrl": null,
+    "id": "board-playground",
+    "content": "## ⚠️ Working In Process\n\n현재 이 프로젝트는 개발 중인 상태입니다. 현재 단계에서는 사용할 수 없거나, 문제가 발생할 수 있습니다.\n\n## 기술 구조\n\n### 전체 구조\n\n- `pnpm` + `turborepo`\n\n### 백엔드\n\n- Repo: `pnpm`, `turborepo`\n- Backend: `NestJS`\n- Database: `Prisma`, `PostgreSQL`\n- Cache: `Redis`, `@nestjs/cache-manager`\n- API: `ts-rest`, `zod`\n- Architecture: `DDD`, `CQRS`\n- CQRS: `@nestjs/crqs`\n- TaskQueue: `BullMQ`\n- Error: `Neverthrow`\n- Authentication: `AccessToken`(JWT) / `RefreshToken(Key Rotation)`, `passport`\n- Health: `@nestjs/terminus`\n- Id: `uuidv7`\n- Logging: `pino`\n- Infra: `AWS`\n- Build: `Docker`\n- CI/CD: `Github Actions`\n\n### 프론트엔드\n\n## 라이센스\n\nboard-playground는 [GPLv3 라이센스](./LICENSE) 를 적용받습니다."
   },
   {
-    "id": "bluessu",
-    "name": "BlueSSU 블루슈",
-    "type": "project",
-    "description": "숭실대학교 오픈소스 API 프로젝트",
-    "thumbnailImage": "/items/bluessu/thumbnail.png",
-    "logoImage": "/items/bluessu/logo.png",
-    "tags": [],
+    "name": "혀느현스 월말결산",
+    "type": "content",
+    "order": 2026,
+    "description": "매달 올라오는 월말결산",
+    "badges": null,
+    "period": "2022년 ~ 현재",
+    "tags": null,
+    "curating": null,
+    "role": null,
+    "url": null,
+    "urls": null,
+    "thumbnailImage": "/items/month-end-settlement/thumbnail.png",
+    "id": "month-end-settlement",
+    "content": ""
+  },
+  {
+    "name": "obsidian-slash-comment",
+    "type": "code",
+    "order": 2026,
+    "description": "Obsidian 플러그인",
+    "badges": null,
+    "period": "2026년",
+    "tags": null,
+    "curating": [
+      "tertiary",
+      "package"
+    ],
+    "role": null,
+    "url": "https://github.com/HyunsDev/obsidian-slash-comment",
+    "repositoryUrl": "https://github.com/HyunsDev/obsidian-slash-comment",
+    "urls": null,
+    "updatedAt": "2026-01-17",
+    "thumbnailImage": "/items/obsidian-slash-comment/thumbnail.png",
+    "id": "obsidian-slash-comment",
+    "content": "This plugin adds support for Javascript-style comments (using the `//` syntax) to your notes in [Obsidian](https://obsidian.md). Any text following `//` on a line will be rendered with a comment style.\n\n## Usage\n\nSimply type `//` in the editor. Any text that follows on the same line will be styled as a comment. This is useful for adding notes, to-dos, or metadata to your documents that you want to be visually distinct from the main content.\n\n```\nThis is a normal line of text.\n// This is a comment. It will be styled differently.\nYou can also add comments after your text. // Like this.\n```\n\n## Installation\n\nThis plugin is not yet in the official Obsidian community plugin browser. It can be installed manually or using the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin.\n\n### With BRAT\n\n1.  Install the **BRAT** plugin from the Obsidian Community Plugins browser.\n2.  Open the settings for BRAT.\n3.  Click on **\"Add Beta plugin\"**.\n4.  In the repository field, enter: `hyunsdev/obsidian-slash-comment`\n5.  Click **\"Add Plugin\"**. BRAT will install the latest version.\n6.  Enable the **\"Slash Comment\"** plugin in the \"Community plugins\" tab in Obsidian's settings.\n\n## Contributing\n\nContributions are welcome! If you have a suggestion for an improvement or have found a bug, please feel free to open an issue or create a pull request.\n\n1.  Fork the repository.\n2.  Create a new branch for your feature or bug fix (e.g., `git checkout -b feature/new-thing` or `bugfix/issue-fix`).\n3.  Make your changes.\n4.  Commit your changes (`git commit -m 'Add some feature'`).\n5.  Push to the branch (`git push origin feature/new-thing`).\n6.  Open a Pull Request.\n\n## Acknowledgments\n\nThis plugin was inspired by and developed with reference to [obsidian-inline-spoilers](https://github.com/logonoff/obsidian-inline-spoilers).\n\n## License\n\nThis plugin is licensed under the [GPL-3.0 License](LICENSE)."
+  },
+  {
+    "name": "Rotor",
+    "type": "product",
+    "order": 2026,
+    "description": "돌아가는 사각형",
     "badges": [
-      "isHot"
+      "isNew"
     ],
-    "urls": [
-      "https://ssu.blue",
-      "https://api-dev.ssu.blue",
-      "https://dashboard-dev.ssu.blue",
-      "https://bluessu.notion.site"
-    ],
-    "url": "https://ssu.blue",
-    "period": "2024~now",
-    "updatedAt": "2024-03-13",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/1M9UKMaO9Zw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n## 관련 영상\n---\n* BlueSSU 프로젝트 소개 - https://youtu.be/1M9UKMaO9Zw\n* BlueSSU 프로젝트 코드 소개 1 - https://youtu.be/KtnjBgIMdRg\n* BlueSSU 프로젝트 코드 소개 2 - https://youtu.be/2MsOIJjNLfE\n* BlueSSU OAuth 설명 및 문서 이야기 - https://youtu.be/tAtWR4i2GU0\n* BlueSSU OAuth Example - https://youtu.be/JbQRX5SiQ_w",
+    "period": "2026년",
     "curating": [
-      "secondary"
-    ]
-  },
-  {
-    "id": "calendar2notion",
-    "name": "Calendar2Notion",
-    "type": "project",
-    "description": "Notion에 일정을 추가하는 웹앱",
-    "thumbnailImage": "/items/calendar2notion/thumbnail.png",
-    "logoImage": "/items/calendar2notion/logo.png",
-    "tags": [
-      "React",
-      "TypeScript",
-      "Notion API"
+      "tertiary"
     ],
-    "badges": [
-      "founded"
-    ],
-    "url": "https://calendar2notion.opize.me",
-    "urls": [
-      "https://calendar2notion.opize.me"
-    ],
-    "period": "2021.08 ~ 2024.03",
-    "updatedAt": "2024-03-18",
-    "content": "Calendarn2notion은 노션과 구글 캘린더를 연결하여 양방향 동기화를 가능하게 만들어주는 서비스입니다. 2023.07 기준으로 12000명 이상의 가입자가 이용하고 있습니다.\n\n아쉽게도 2024년 3월을 기준으로 서비스를 종료했습니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- NextJS를 이용한 SSR 프론트엔드\n- react-query를 이용한 API 캐싱\n- recoil을 이용한 상태 관리\n\nhttps://github.com/HyunsDev/opize-calendar2notion-frontend\n\n### Backend\n- NestJS를 이용한 백엔드 구현\n- 모노레포를 이용한 개발환경 구축\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend\n\n### Syncbot\n- Notion API와 Google Calendar API를 이용한 동기화 자동화\n- Worker Thread를 이용한 다중 쓰레드 사용\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend\n\n## 관련 영상\n---\n\n* 그동안 개발한 것들 - 2023/02/23 - https://youtu.be/rwKqSZrQJ2g\n* Calendar2notion 개발 시연 영상 - https://youtu.be/ESy5_vovAX0\n* 개발 초기 시연 영상 - https://youtu.be/nZ-kQpV2qGE",
-    "curating": [
-      "primary"
-    ],
-    "role": "1인 개발"
+    "role": null,
+    "url": "https://rotor.hyuns.dev",
+    "urls": null,
+    "updatedAt": "2026-01-17",
+    "thumbnailImage": "/items/rotor/thumbnail.png",
+    "repositoryUrl": "https://github.com/HyunsDev/rotor",
+    "id": "rotor",
+    "content": "**Minimalist Rotating ASCII Art Animation.**"
   },
   {
-    "id": "break-out",
-    "name": "벽돌깨기",
-    "type": "project",
-    "description": "숭실대학교 Art&Technology 수업 과제로 제작한 벽돌깨기 게임",
-    "thumbnailImage": "/items/break-out/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "period": "2023",
-    "updatedAt": "2024-03-13",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/OM908Ywte0k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n\n## 관련 영상\n---\n* 벽돌깨기 게임 설명 - 1 - https://youtu.be/8270qxJ2lrA\n* 벽돌깨기 게임 설명 - 2 - https://youtu.be/n62wU965zjs"
-  },
-  {
-    "id": "moyeo",
-    "name": "Moyeo 모여!",
-    "type": "project",
-    "description": "대학생을 위한 모여!",
-    "thumbnailImage": "/items/moyeo/thumbnail.png",
-    "logoImage": "/items/moyeo/logo.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://moyeo.me",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/F2LYQ25JwJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n## 관련 영상\n---\n* Moyeo Notification 연동 - https://youtu.be/oV7wqA5bz2c",
-    "updatedAt": "2024-03-13",
-    "period": "2024.05 ~ 2023.11",
-    "curating": [
-      "secondary"
-    ],
-    "urls": [
-      "https://moyeo.me"
-    ]
-  },
-  {
-    "id": "opize",
-    "name": "Opize 오피즈",
-    "type": "project",
-    "description": "더욱 편리한 생산성 라이프 프로젝트",
-    "thumbnailImage": "/items/opize/thumbnail.png",
-    "logoImage": "/items/opize/logo.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://opize.me",
-    "content": "Opize는 더욱 편리한 생산성을 위해 다양한 프로젝트를 제공하는 서비스입니다. Opize 웹사이트는 프로젝트들을 편리하게 관리할 수 있도록 중앙 대시보드와 Opize OAuth를 제공합니다.\n\n## 기술 및 업무\n### Frontend\n- NextJS를 이용한 SSR 프론트엔드\n- React-Query를 이용한 API 캐싱 관리\n- 구글 OAuth를 이용한 서비스 회원 관리\n- JWT을 이용한 인증 관리\n\nhttps://github.com/HyunsDev/opize-frontend\n\n### Backend\n- NestJS를 이용한 백엔드 구현\n- TypeORM과 MariaDB를 이용한 데이터베이스\n- Docker, Github Action을 이용한 CI/CD 구축\n- 자체 OAuth Server 기능 구현\n\nhttps://github.com/HyunsDev/opize-backend (비공개)",
-    "updatedAt": "2024-03-13",
-    "period": "2021 ~ now",
-    "curating": [
-      "secondary"
-    ]
-  },
-  {
-    "id": "opize-design-system",
-    "name": "Opize Design System",
-    "type": "project",
-    "description": "오피즈 디자인 시스템",
-    "thumbnailImage": "/items/opize-design-system/thumbnail.png",
-    "logoImage": "/items/opize-design-system/logo.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://design.opize.me",
-    "content": "\nOpize Design System은 디자인에 대한 고민 대신, 아이디어를 현실로 만들도록 도와주는 컴포넌트 라이브러리이자 디자인 시스템입니다.\n\n## 기술 및 업무\n---\n\n* React를 이용한 디자인 시스템 구축\n* Styled-components를 이용한 컴포넌트 스타일링\n* Storybook을 이용한 디자인 시스템 개발 환경 구축 및 문서화\n* Bable, Webpack을 이용하여 React 라이브러리 npm 배포\n* Ref와 Event를 이용한 HTML-like 컴포넌트 개발\n* 다른 태그로 변경할 수 있는 Polymorphic 컴포넌트 개발\n* React Context를 이용한 라이브러리 상태 관리\n* 컬러 팔레트를 이용한 라이트/다크 테마 구현\n\n<br>\n\nhttps://github.com/HyunsDev/opize-design-system\n\n## 관련 영상\n---\n* Opize-Design-System 개발 1번째 기록 - https://youtu.be/KLPOJ8ldnCc\n* Opize-Design-System 개발 2번째 기록 - https://youtu.be/LNmmRqpqBCc\n* Opize-Design-System 개발 3번째 기록 - https://youtu.be/rZ7X6zHR38M\n* Opize-Design-System 개발 4번째 기록 - https://youtu.be/japHd4xVEfM\n* Opize-Design-System 개발 5번째 기록 - https://youtu.be/2N87gPU5kIM",
-    "updatedAt": "2024-03-13",
-    "period": "2021 ~ now",
-    "curating": [
-      "primary"
-    ],
-    "urls": [
-      "https://design.opize.me"
-    ]
-  },
-  {
-    "id": "endpoint-client",
-    "name": "endpoint-client",
-    "type": "develop",
-    "description": "타입 안전한 API 엔드포인트 추상화",
-    "thumbnailImage": "/items/endpoint-client/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://github.com/HyunsDev/endpoint-client",
-    "urls": [
-      "https://github.com/HyunsDev/endpoint-client"
-    ],
-    "period": "2023",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "yourssu-design-system",
-    "name": "Yourssu Design System",
-    "type": "project",
-    "description": "유어슈 디자인 시스템",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "express-terminal",
-    "name": "온라인 미술관 - 고속터미널 팀",
-    "type": "project",
-    "description": "숭실대학교 Art&Technology 2023년도 1학기 고속터미널 팀",
-    "thumbnailImage": "/items/express-terminal/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://github.com/HyunsDevssu-2023-art-tech-express-terminal",
-    "urls": [
-      "https://github.com/HyunsDevssu-2023-art-tech-express-terminal"
-    ],
-    "period": "2023년 1학기",
-    "updatedAt": "2024-03-13",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/fpoZ16JfqdY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-  },
-  {
-    "id": "hyuns-dash",
     "name": "Hyuns Dash",
-    "type": "project",
+    "type": "product",
     "description": "개인 대시보드",
     "thumbnailImage": "/items/hyuns-dash/thumbnail.png",
     "logoImage": "/items/hyuns-dash/logo.png",
@@ -200,17 +93,193 @@
       "https://github.com/HyunsDev/hyuns-dashboard",
       "https://github.com/HyunsDev/hyuns-api-v2"
     ],
-    "period": "",
+    "period": "2025년",
     "updatedAt": "2024-03-13",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/9Nccy1bR4s8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "curating": [
-      "secondary"
-    ]
+    "curating": null,
+    "order": 2025,
+    "id": "hyuns-dash",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/9Nccy1bR4s8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
-    "id": "hyuns-dashboard",
+    "name": "Hyuns PKM Utils",
+    "type": "product",
+    "order": 2025,
+    "description": "PKM을 위한 유틸리티 웹사이트",
+    "badges": null,
+    "period": "2025년",
+    "tags": null,
+    "curating": [
+      "tertiary"
+    ],
+    "role": null,
+    "url": "https://pkm-utils.hyuns.dev/",
+    "urls": null,
+    "thumbnailImage": "/items/hyuns-pkm-utils-web/thumbnail.png",
+    "repositoryUrl": "https://github.com/HyunsDev/hyuns-frontend/tree/main/apps/pkm-utils",
+    "id": "hyuns-pkm-utils-web",
+    "content": ""
+  },
+  {
+    "name": "BlueSSU 블루슈",
+    "type": "product",
+    "description": "숭실대학교 오픈소스 API 프로젝트",
+    "thumbnailImage": "/items/bluessu/thumbnail.png",
+    "logoImage": "/items/bluessu/logo.png",
+    "tags": [],
+    "badges": null,
+    "url": "https://ssu.blue",
+    "urls": [
+      "https://ssu.blue",
+      "https://api-dev.ssu.blue",
+      "https://dashboard-dev.ssu.blue",
+      "https://bluessu.notion.site"
+    ],
+    "period": "2024년 ~ 현재",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "secondary"
+    ],
+    "order": 2024,
+    "id": "bluessu",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/1M9UKMaO9Zw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n## 관련 영상\n---\n* BlueSSU 프로젝트 소개 - https://youtu.be/1M9UKMaO9Zw\n* BlueSSU 프로젝트 코드 소개 1 - https://youtu.be/KtnjBgIMdRg\n* BlueSSU 프로젝트 코드 소개 2 - https://youtu.be/2MsOIJjNLfE\n* BlueSSU OAuth 설명 및 문서 이야기 - https://youtu.be/tAtWR4i2GU0\n* BlueSSU OAuth Example - https://youtu.be/JbQRX5SiQ_w"
+  },
+  {
+    "name": "UniBook 유니북",
+    "type": "product",
+    "description": "새로운 대학 교재의 세계",
+    "thumbnailImage": "/items/unibook/thumbnail.png",
+    "logoImage": "/items/unibook/logo.png",
+    "tags": [],
+    "badges": [
+      "founded",
+      "isHot",
+      "isNew"
+    ],
+    "url": "https://unibook.co",
+    "urls": [
+      "https://unibook.co"
+    ],
+    "period": "2024년 ~ now",
+    "updatedAt": "2024-03-18",
+    "curating": [
+      "primary"
+    ],
+    "role": "기획, UX/UI, 백엔드, 프론트엔드, 출판/편집",
+    "order": 2024,
+    "id": "unibook",
+    "content": "UniBook은 마크다운을 기반으로 대학 교재 등의 책을 EBook 형태로 판매하는 서비스입니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- Vite (React, SWC)를 이용한 프론트엔드\n- TailwindCSS와 shadcn/ui를 이용한 스타일링\n- @tanstack/query를 이용한 API 캐싱 관리\n- Notification API를 이용한 웹 푸시 알림\n- Notion을 기반으로 한 자체 마크다운 렌더러 개발\n\n### Renderer\n* `react-notion-x` 를 기반으로 만든 UniBook Page 렌더러\n\n<br />\n\nhttps://github.com/HyunsDev/unibook-renderer\n\n### Backend\n- NestJS를 이용한 백엔드 개발\n- Mysql과 TypeORM을 이용한 데이터베이스 관리\n\n### Client\n- `endpoint-client` 라이브러리를 이용한 API 타입 매핑\n- API 타입을 재사용 가능한 라이브러리로 배포\n\n<br>\n\nhttps://github.com/HyunsDev/unibook-client\n\nhttps://www.npmjs.com/package/unibook-client\n\n\n### Desktop\n- `Electron` 을 이용한 데스크탑 앱 개발\n\n\n\n\n## 관련 영상\n---\n\n* UniBook 시연 - https://youtu.be/zwilJPQy_zA"
+  },
+  {
+    "name": "unibook-renderer",
+    "type": "code",
+    "description": "UniBook Renderer",
+    "badges": null,
+    "url": "https://github.com/HyunsDev/unibook-renderer",
+    "urls": [
+      "https://github.com/HyunsDev/unibook-renderer"
+    ],
+    "period": "2024년",
+    "updatedAt": "2024-03-26",
+    "thumbnailImage": "/items/unibook-renderer/thumbnail.png",
+    "order": 2024,
+    "curating": [
+      "package"
+    ],
+    "id": "unibook-renderer",
+    "content": ""
+  },
+  {
+    "name": "IT 프로젝트",
+    "type": "activity",
+    "description": "숭실대학교 IT프로젝트 우수상",
+    "period": "2023년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/award-it-project-2023/thumbnail.png",
+    "order": 2023,
+    "id": "award-it-project-2023",
+    "content": ""
+  },
+  {
+    "name": "2023 전국 대학생 SW 창업 아이디어톤 대상",
+    "type": "activity",
+    "description": "대상받으면호수공원입수",
+    "period": "2023년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/award-sw-founded-ideaton-2023/thumbnail.png",
+    "order": 2023,
+    "id": "award-sw-founded-ideaton-2023",
+    "content": ""
+  },
+  {
+    "name": "벽돌깨기",
+    "type": "product",
+    "description": "숭실대학교 Art&Technology 수업 과제로 제작한 벽돌깨기 게임",
+    "thumbnailImage": "/items/break-out/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "break-out",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/OM908Ywte0k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n\n## 관련 영상\n---\n* 벽돌깨기 게임 설명 - 1 - https://youtu.be/8270qxJ2lrA\n* 벽돌깨기 게임 설명 - 2 - https://youtu.be/n62wU965zjs"
+  },
+  {
+    "name": "@hyunsdev/discord-webhook",
+    "type": "code",
+    "description": "npm discord webhook library",
+    "urls": [
+      "https://www.npmjs.com/package/@hyunsdev/discord-webhook"
+    ],
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/discord-webhook/thumbnail.png",
+    "order": 2023,
+    "period": "2023년",
+    "curating": [
+      "package"
+    ],
+    "id": "discord-webhook",
+    "content": ""
+  },
+  {
+    "name": "endpoint-client",
+    "type": "code",
+    "description": "타입 안전한 API 엔드포인트 추상화",
+    "thumbnailImage": "/items/endpoint-client/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/endpoint-client",
+    "urls": [
+      "https://github.com/HyunsDev/endpoint-client"
+    ],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "curating": [
+      "package"
+    ],
+    "id": "endpoint-client",
+    "content": ""
+  },
+  {
+    "name": "온라인 미술관 - 고속터미널 팀",
+    "type": "product",
+    "description": "숭실대학교 Art&Technology 2023년도 1학기 고속터미널 팀",
+    "thumbnailImage": "/items/express-terminal/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDevssu-2023-art-tech-express-terminal",
+    "urls": [
+      "https://github.com/HyunsDevssu-2023-art-tech-express-terminal"
+    ],
+    "period": "2023년 1학기",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "express-terminal",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/fpoZ16JfqdY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
     "name": "Hyuns Dashboard",
-    "type": "project",
+    "type": "product",
     "description": "개인 대시보드",
     "thumbnailImage": "/items/hyuns-dashboard/thumbnail.png",
     "logoImage": "/items/hyuns-dashboard/logo.png",
@@ -221,14 +290,159 @@
       "https://github.com/HyunsDev/hyuns-api-frontend",
       "https://github.com/HyunsDev/hyuns-api-v2"
     ],
-    "period": "",
+    "period": "2023년 1학기",
     "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "hyuns-dashboard",
     "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/n7lZFhCRI18\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
-    "id": "duckie",
+    "name": "Moyeo 모여!",
+    "type": "product",
+    "description": "대학생을 위한 모여!",
+    "thumbnailImage": "/items/moyeo/thumbnail.png",
+    "logoImage": "/items/moyeo/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://moyeo.me",
+    "urls": [
+      "https://moyeo.me"
+    ],
+    "period": "2024.05 ~ 2024.11",
+    "updatedAt": "2024-03-13",
+    "curating": null,
+    "order": 2023,
+    "id": "moyeo",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/F2LYQ25JwJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n## 관련 영상\n---\n* Moyeo Notification 연동 - https://youtu.be/oV7wqA5bz2c"
+  },
+  {
+    "name": "가위바위보 게더링",
+    "type": "product",
+    "description": "외주 프로젝트",
+    "thumbnailImage": "/items/project-gathering/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "project-gathering",
+    "content": ""
+  },
+  {
+    "name": "리로스팩 업로더",
+    "type": "product",
+    "description": "마인크레프트 하려고 만든 프로젝트",
+    "thumbnailImage": "/items/resourcepack-uploader/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "resourcepack-uploader",
+    "content": ""
+  },
+  {
+    "name": "성빈랜드 컨퍼런스 2023",
+    "type": "product",
+    "description": "성빈콘 2023 웹사이트",
+    "thumbnailImage": "/items/sbld-conf/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "secondary"
+    ],
+    "role": "프론트엔드 개발",
+    "order": 2023,
+    "id": "sbld-conf",
+    "content": "2023 SBLD Conference의 오거나이저로, 웹 개발과 컨퍼런스 진행을 맡았습니다.\n\n## 업무\n\n프론트엔드 개발\n\n## 기술\n\n- Styled-components를 이용한 스타일링\n- 모바일, 웹 환경을 위한 반응형 웹 디자인\n- 마우스 이벤트를 이용한 드래그 가능한 컴포넌트 구현\n\nhttps://github.com/sungbinlandconf/2023.sungbinland.day (현재 사용 불가)"
+  },
+  {
+    "name": "Scrum 스크럼",
+    "type": "product",
+    "description": "대학생 커뮤니티",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/scrum/thumbnail.png",
+    "order": 2023,
+    "id": "scrum",
+    "content": ""
+  },
+  {
+    "name": "숭실대학교 글로벌미디어학부",
+    "type": "activity",
+    "description": "숭실대학교 글로벌미디어학부 재학, 컴퓨터학부 복수 전공",
+    "period": "2023년 ~ 현재",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/soongsil-university/thumbnail.png",
+    "order": 2023,
+    "id": "soongsil-university",
+    "content": ""
+  },
+  {
+    "name": "급할때 화장실",
+    "type": "product",
+    "description": "유어슈 루키톤",
+    "thumbnailImage": "/items/toilet/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "order": 2023,
+    "id": "toilet",
+    "content": ""
+  },
+  {
+    "name": "Yourssu Design System",
+    "type": "code",
+    "description": "유어슈 디자인 시스템",
+    "tags": [],
+    "badges": [],
+    "period": "2023년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/yourssu-design-system/thumbnail.png",
+    "order": 2023,
+    "id": "yourssu-design-system",
+    "content": ""
+  },
+  {
+    "name": "2022 공공데이터 활용 서비스 개발 공모전 최우수상",
+    "type": "activity",
+    "description": "고등학교4학년팀",
+    "period": "2022년",
+    "updatedAt": "2024-03-17",
+    "role": "프론트엔드",
+    "thumbnailImage": "/items/award-open-data-2022/thumbnail.png",
+    "order": 2022,
+    "id": "award-open-data-2022",
+    "content": ""
+  },
+  {
+    "name": "원 운동 시뮬레이터",
+    "type": "product",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/circular-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://circular-motion.hyuns.dev",
+    "urls": [
+      "https://circular-motion.hyuns.dev"
+    ],
+    "period": "2021.08 ~ 2022.03",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ],
+    "order": 2022,
+    "id": "circular-motion-simulator",
+    "content": "<iframe src=\"https://circular-motion.hyuns.dev\" class=\"web-embed\">"
+  },
+  {
     "name": "Duckie 덕키",
-    "type": "project",
+    "type": "product",
     "description": "Duckie 덕키",
     "thumbnailImage": "/items/duckie/thumbnail.png",
     "tags": [],
@@ -237,13 +451,15 @@
     "urls": [
       "https://duckie.team"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "order": 2022,
+    "id": "duckie",
+    "content": ""
   },
   {
-    "id": "duckie-open-source",
     "name": "덕키 오픈소스",
-    "type": "project",
+    "type": "product",
     "description": "덕키의 오픈소스 페이지",
     "thumbnailImage": "/items/duckie-open-source/thumbnail.png",
     "tags": [],
@@ -252,29 +468,192 @@
     "urls": [
       "https://opensource.duckie.team"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "order": 2022,
+    "id": "duckie-open-source",
+    "content": ""
   },
   {
-    "id": "sbld-conf",
-    "name": "성빈랜드 컨퍼런스 2023",
-    "type": "project",
-    "description": "성빈콘 2023 웹사이트",
-    "thumbnailImage": "/items/sbld-conf/thumbnail.png",
+    "name": "자이로볼",
+    "type": "product",
+    "description": "자이로 센서를 이용한 프로젝트",
+    "thumbnailImage": "/items/gyro-ball/thumbnail.png",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13",
-    "content": "\n2023 SBLD Conference의 오거나이저로, 웹 개발과 컨퍼런스 진행을 맡았습니다.\n\n## 업무\n\n프론트엔드 개발\n\n## 기술\n\n- Styled-components를 이용한 스타일링\n- 모바일, 웹 환경을 위한 반응형 웹 디자인\n- 마우스 이벤트를 이용한 드래그 가능한 컴포넌트 구현\n\nhttps://github.com/sungbinlandconf/2023.sungbinland.day (현재 사용 불가)",
-    "curating": [
-      "secondary"
+    "url": "https://gyroball.hyuns.dev",
+    "urls": [
+      "https://gyroball.hyuns.dev"
     ],
-    "role": "프론트엔드 개발"
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ],
+    "order": 2022,
+    "id": "gyro-ball",
+    "content": ""
   },
   {
-    "id": "space-gravity",
+    "name": "펭귄 스케이팅 게임",
+    "type": "product",
+    "description": "펭귄 스케이팅 with 미적분",
+    "url": "https://hyunsdev.github.io/math-animation-game",
+    "urls": [
+      "https://hyunsdev.github.io/math-animation-game"
+    ],
+    "period": "2021년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/math-animation-game/thumbnail.png",
+    "order": 2022,
+    "id": "math-animation-game",
+    "content": ""
+  },
+  {
+    "name": "몬티 홀 문제 with p5.js",
+    "type": "product",
+    "description": "p5.js로 몬티홀 문제 풀어보기",
+    "url": "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js",
+    "urls": [
+      "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
+    ],
+    "period": "2021년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/monty-hall-problem/thumbnail.png",
+    "order": 2022,
+    "id": "monty-hall-problem",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/qWcfJ2C_2hs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "name": "Happy Notion's Year Korea 2022 웨비나 발표",
+    "type": "activity",
+    "description": "노션과 구글 캘린더 연동하기",
+    "period": "2022년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/notion-calendar2notion-youtube/thumbnail.png",
+    "order": 2022,
+    "id": "notion-calendar2notion-youtube",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/oFjA0U8421o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "name": "Opize 설립",
+    "type": "activity",
+    "description": "더욱 편리한 생산성 라이프를 위한 프로젝트, Opize를 설립(사업자 등록)",
+    "period": "2022년 1월",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/opize-found/thumbnail.png",
+    "order": 2022,
+    "id": "opize-found",
+    "content": "고등학생 시절 취미로 시작했던 프로젝트를 더욱 많은 사람이 이용할 수 있는 서비스로 만들기 위해 설립한 회사입니다. 수익을 추구하는 일반적인 회사가 아닌, 저의 개발 능력을 제한없이 펼치기 위해 설립하였습니다."
+  },
+  {
+    "name": "포물선 운동 시뮬레이터",
+    "type": "product",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/parabolic-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev",
+    "urls": [
+      "https://pendulum.hyuns.dev"
+    ],
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ],
+    "order": 2022,
+    "id": "parabolic-motion-simulator",
+    "content": "<iframe src=\"https://pendulum.hyuns.dev\" class=\"web-embed\">"
+  },
+  {
+    "name": "빛의 굴절과 반사",
+    "type": "product",
+    "description": "물리학 빛의 굴절과 반사",
+    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
+    "urls": [
+      "https://hyunsdev.github.io/physics-refraction-simulator"
+    ],
+    "period": "2022년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/physics-refaction-simulator/thumbnail.png",
+    "order": 2022,
+    "id": "physics-refaction-simulator",
+    "content": ""
+  },
+  {
+    "name": "터치 스피드 게임",
+    "type": "product",
+    "description": "서령고등학교 2021 서령제 출품작",
+    "url": "https://touch-speed-game.hyuns.dev",
+    "period": "2022년",
+    "updatedAt": "2024-03-17",
+    "thumbnailImage": "/items/pos-touch-speed-game/thumbnail.png",
+    "order": 2022,
+    "id": "pos-touch-speed-game",
+    "content": ""
+  },
+  {
+    "name": "레이케스터",
+    "type": "product",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/raycaster/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://raycaster.hyuns.dev",
+    "urls": [
+      "https://raycaster.hyuns.dev"
+    ],
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ],
+    "order": 2022,
+    "id": "raycaster",
+    "content": "<iframe src=\"https://raycaster.hyuns.dev\" class=\"web-embed\">"
+  },
+  {
+    "name": "리버나우",
+    "type": "product",
+    "description": "리버나우",
+    "thumbnailImage": "/items/river-now/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://github.com/HyunsDev/river-now",
+    "urls": [
+      "https://github.com/HyunsDev/river-now",
+      "https://river-now.hyuns.dev/"
+    ],
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "order": 2022,
+    "id": "river-now",
+    "content": ""
+  },
+  {
+    "name": "단진자 운동 시뮬레이터",
+    "type": "product",
+    "description": "혀느현스 시뮬레이터 시리즈",
+    "thumbnailImage": "/items/short-pendulum-motion-simulator/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://pendulum.hyuns.dev",
+    "urls": [
+      "https://pendulum.hyuns.dev"
+    ],
+    "period": "2022년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "physics"
+    ],
+    "order": 2022,
+    "id": "short-pendulum-motion-simulator",
+    "content": "<iframe src=\"https://pendulum.hyuns.dev\" class=\"web-embed\">"
+  },
+  {
     "name": "스페이스 그래비티",
-    "type": "project",
+    "type": "product",
     "description": "혀느현스 시뮬레이터 시리즈",
     "thumbnailImage": "/items/space-gravity/thumbnail.png",
     "logoImage": "/items/space-gravity/logo.png",
@@ -284,273 +663,75 @@
     "urls": [
       "https://space-gravity.hyuns.dev/"
     ],
-    "period": "",
+    "period": "2022년",
     "updatedAt": "2024-03-13",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/cAx5J5UduSI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe src=\"https://space-gravity.hyuns.dev\" class=\"web-embed\">\n\n`React`와 `Web Worker`를 이용한 웹 우주 중력 시뮬레이터입니다.\n웹 환경에서 키보드와 마우스를 통해 손 쉬운 인터렉션으로 행성간의 중력 작용을 시뮬레이션 할 수 있으며, `Web Worker`를 이용하여 성능 최적화를 이루어냈습니다.\n\n## 기술 및 업무\n---\n\n- Web Worker 쓰레드 분리를 이용한 사용자 반응성 개선\n- HTML Canvas를 이용한 인터렉티브한 디자인 표시\n- Styled-components를 이용한 스타일링\n- React Context를 이용한 상태 관리\n\n<br>\nhttps://github.com/HyunsDev/space-gravity\n\n## 관련 영상\n---\n* 스페이스 그래비티 개발 LOG - 1 - https://youtu.be/vwnMaC0IP9I\n* 스페이스 그래비티 개발 LOG - 2 - https://youtu.be/HKoGAJObJlg",
     "curating": [
-      "secondary",
       "physics"
-    ]
+    ],
+    "order": 2022,
+    "id": "space-gravity",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/cAx5J5UduSI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe src=\"https://space-gravity.hyuns.dev\" class=\"web-embed\">\n\n`React`와 `Web Worker`를 이용한 웹 우주 중력 시뮬레이터입니다.\n웹 환경에서 키보드와 마우스를 통해 손 쉬운 인터렉션으로 행성간의 중력 작용을 시뮬레이션 할 수 있으며, `Web Worker`를 이용하여 성능 최적화를 이루어냈습니다.\n\n## 기술 및 업무\n---\n\n- Web Worker 쓰레드 분리를 이용한 사용자 반응성 개선\n- HTML Canvas를 이용한 인터렉티브한 디자인 표시\n- Styled-components를 이용한 스타일링\n- React Context를 이용한 상태 관리\n\n<br>\nhttps://github.com/HyunsDev/space-gravity\n\n## 관련 영상\n---\n* 스페이스 그래비티 개발 LOG - 1 - https://youtu.be/vwnMaC0IP9I\n* 스페이스 그래비티 개발 LOG - 2 - https://youtu.be/HKoGAJObJlg"
   },
   {
-    "id": "raycaster",
-    "name": "레이케스터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/raycaster/thumbnail.png",
+    "name": "학생부/자소서 글자수 계산기",
+    "type": "product",
+    "description": "학생부/자소서 글자수 계산기",
+    "thumbnailImage": "/items/student-word-counter/thumbnail.png",
     "tags": [],
     "badges": [],
-    "url": "https://raycaster.hyuns.dev",
+    "url": "https://counter.hyuns.dev/",
     "urls": [
-      "https://raycaster.hyuns.dev"
+      "https://counter.hyuns.dev/"
     ],
-    "period": "",
+    "period": "2022년",
     "updatedAt": "2024-03-13",
-    "curating": [
-      "physics"
-    ],
-    "content": "<iframe src=\"https://raycaster.hyuns.dev\" class=\"web-embed\">"
+    "order": 2022,
+    "id": "student-word-counter",
+    "content": ""
   },
   {
-    "id": "circular-motion-simulator",
-    "name": "원 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/circular-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://circular-motion.hyuns.dev",
-    "urls": [
-      "https://circular-motion.hyuns.dev"
-    ],
-    "period": "2021.08 ~ 2024.03",
-    "updatedAt": "2024-03-13",
-    "curating": [
-      "physics"
-    ],
-    "content": "<iframe src=\"https://circular-motion.hyuns.dev\" class=\"web-embed\">"
-  },
-  {
-    "id": "gyro-ball",
-    "name": "자이로볼",
-    "type": "project",
-    "description": "자이로 센서를 이용한 프로젝트",
-    "thumbnailImage": "/items/gyro-ball/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://gyroball.hyuns.dev",
-    "urls": [
-      "https://gyroball.hyuns.dev"
-    ],
-    "period": "",
-    "updatedAt": "2024-03-13",
-    "curating": [
-      "physics"
-    ]
-  },
-  {
-    "id": "parabolic-motion-simulator",
-    "name": "포물선 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/parabolic-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://pendulum.hyuns.dev",
-    "urls": [
-      "https://pendulum.hyuns.dev"
-    ],
-    "period": "",
-    "updatedAt": "2024-03-13",
-    "curating": [
-      "physics"
-    ],
-    "content": "<iframe src=\"https://pendulum.hyuns.dev\" class=\"web-embed\">"
-  },
-  {
-    "id": "short-pendulum-motion-simulator",
-    "name": "단진자 운동 시뮬레이터",
-    "type": "project",
-    "description": "혀느현스 시뮬레이터 시리즈",
-    "thumbnailImage": "/items/short-pendulum-motion-simulator/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://pendulum.hyuns.dev",
-    "urls": [
-      "https://pendulum.hyuns.dev"
-    ],
-    "period": "",
-    "updatedAt": "2024-03-13",
-    "curating": [
-      "physics"
-    ],
-    "content": "<iframe src=\"https://pendulum.hyuns.dev\" class=\"web-embed\">"
-  },
-  {
-    "name": "펭귄 스케이팅 게임",
-    "period": "2021",
-    "type": "project",
-    "description": "펭귄 스케이팅 with 미적분",
-    "url": "https://hyunsdev.github.io/math-animation-game",
-    "urls": [
-      "https://hyunsdev.github.io/math-animation-game"
-    ],
-    "updatedAt": "2024-03-17",
-    "id": "math-animation-game"
-  },
-  {
-    "name": "빛의 굴절과 반사",
-    "type": "project",
-    "description": "물리학 빛의 굴절과 반사",
-    "period": "2021",
-    "url": "https://hyunsdev.github.io/physics-refraction-simulator",
-    "urls": [
-      "https://hyunsdev.github.io/physics-refraction-simulator"
-    ],
-    "updatedAt": "2024-03-17",
-    "id": "physics-refaction-simulator"
-  },
-  {
-    "name": "몬티 홀 문제 with p5.js",
-    "type": "project",
-    "description": "p5.js로 몬티홀 문제 풀어보기",
-    "period": "2021",
-    "url": "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js",
-    "updatedAt": "2024-03-17",
-    "id": "monty-hall-problem",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/qWcfJ2C_2hs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "urls": [
-      "https://hyunsdev.github.io/SSR-monty-hall-problem-p5js"
-    ]
-  },
-  {
-    "id": "ai-trash-can",
     "name": "인공지능 쓰레기통",
-    "type": "project",
+    "type": "product",
     "description": "인공지능으로 쓰레기 분리수거하기",
     "thumbnailImage": "/items/ai-trash-can/thumbnail.png",
     "tags": [],
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/t-y4nQxZtdQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/CzRxaxlZpTM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/0sDDE0Mnmj0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n",
-    "period": "2021",
+    "period": "2021년",
     "updatedAt": "2024-03-13",
-    "stacks": [
-      "python",
-      "NodeJS"
+    "curating": null,
+    "order": 2021,
+    "id": "ai-trash-can",
+    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/t-y4nQxZtdQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/CzRxaxlZpTM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/0sDDE0Mnmj0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "name": "Calendar2Notion",
+    "type": "product",
+    "description": "Notion에 일정을 추가하는 웹앱",
+    "thumbnailImage": "/items/calendar2notion/thumbnail.png",
+    "logoImage": "/items/calendar2notion/logo.png",
+    "tags": [
+      "React",
+      "TypeScript"
     ],
-    "curating": [
-      "secondary"
-    ]
-  },
-  {
-    "name": "터치 스피드 게임",
-    "type": "project",
-    "description": "서령고등학교 2021 서령제 출품작",
-    "period": "2021",
-    "url": "https://touch-speed-game.hyuns.dev",
-    "id": "pos-touch-speed-game",
-    "updatedAt": "2024-03-17"
-  },
-  {
-    "id": "findmask",
-    "name": "마스크찾아줌",
-    "type": "project",
-    "description": "공공 데이터를 활용한 마스크 재고 확인 서비스",
-    "logoImage": "/items/findmask/logo.png",
-    "tags": [],
-    "badges": [],
-    "period": "2020년",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "seosan-start",
-    "name": "서산 Start",
-    "type": "project",
-    "description": "서산시 지역 관광지 서비스",
-    "logoImage": "/items/seosan-start/logo.png",
-    "tags": [],
-    "badges": [],
-    "period": "2021년",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "seol-chat",
-    "name": "설챗",
-    "type": "project",
-    "description": "설치형 비공개 채팅 서비스",
-    "tags": [],
-    "badges": [],
-    "period": "2021년",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "whatto",
-    "name": "내일뭐함",
-    "type": "project",
-    "description": "전국 초/중/고 학교 앱",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "whatto-seoryeong",
-    "name": "내일서령",
-    "type": "project",
-    "description": "서령고등학교 앱",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "whatclockisit",
-    "name": "지금몇시계",
-    "type": "project",
-    "description": "바탕화면 속 조그만 아이",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "line",
-    "name": "한줄한줄",
-    "type": "project",
-    "description": "한줄한줄 글쓰기",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "scrum",
-    "name": "Scrum 스크럼",
-    "type": "project",
-    "description": "대학생 커뮤니티",
-    "tags": [],
-    "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
-  },
-  {
-    "id": "notion-tools",
-    "name": "Notion Tools - 노션툴즈",
-    "type": "project",
-    "description": "노션을 위한 All in One 웹사이트 ",
-    "thumbnailImage": "/items/notion-tools/thumbnail.png",
-    "tags": [],
-    "badges": [],
-    "url": "https://www.notion-tools.com",
+    "badges": [
+      "founded"
+    ],
+    "url": "https://calendar2notion.opize.me",
     "urls": [
-      "https://www.notion-tools.com"
+      "https://calendar2notion.opize.me"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2021.08 ~ 2022.03",
+    "updatedAt": "2024-03-18",
+    "curating": [
+      "primary"
+    ],
+    "role": "1인 개발",
+    "order": 2021,
+    "id": "calendar2notion",
+    "content": "Calendarn2notion은 노션과 구글 캘린더를 연결하여 양방향 동기화를 가능하게 만들어주는 서비스입니다. 2023.07 기준으로 12000명 이상의 가입자가 이용하고 있습니다.\n\n아쉽게도 2024년 3월을 기준으로 서비스를 종료했습니다.\n\n## 기술 및 업무\n---\n\n### Frontend\n- NextJS를 이용한 SSR 프론트엔드\n- react-query를 이용한 API 캐싱\n- recoil을 이용한 상태 관리\n\nhttps://github.com/HyunsDev/opize-calendar2notion-frontend\n\n### Backend\n- NestJS를 이용한 백엔드 구현\n- 모노레포를 이용한 개발환경 구축\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend\n\n### Syncbot\n- Notion API와 Google Calendar API를 이용한 동기화 자동화\n- Worker Thread를 이용한 다중 쓰레드 사용\n\nhttps://github.com/HyunsDev/opize-calendar2notion-backend\n\n## 관련 영상\n---\n\n* 그동안 개발한 것들 - 2023/02/23 - https://youtu.be/rwKqSZrQJ2g\n* Calendar2notion 개발 시연 영상 - https://youtu.be/ESy5_vovAX0\n* 개발 초기 시연 영상 - https://youtu.be/nZ-kQpV2qGE"
   },
   {
-    "id": "one-touch-self-check",
     "name": "원터치 자가진단",
-    "type": "project",
+    "type": "product",
     "description": "원터치 자가진단",
     "thumbnailImage": "/items/one-touch-self-check/thumbnail.png",
     "logoImage": "/items/one-touch-self-check/logo.png",
@@ -562,147 +743,167 @@
       "https://github.com/HyunsDev/one-touch-self-check",
       "https://github.com/HyunsDev/one-touch-self-check-backend"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2021년",
+    "updatedAt": "2024-03-13",
+    "order": 2021,
+    "id": "one-touch-self-check",
+    "content": ""
   },
   {
-    "id": "river-now",
-    "name": "리버나우",
-    "type": "project",
-    "description": "리버나우",
-    "thumbnailImage": "/items/river-now/thumbnail.png",
+    "name": "Opize 오피즈",
+    "type": "product",
+    "description": "더욱 편리한 생산성 라이프 프로젝트",
+    "thumbnailImage": "/items/opize/thumbnail.png",
+    "logoImage": "/items/opize/logo.png",
     "tags": [],
     "badges": [],
-    "url": "https://github.com/HyunsDev/river-now",
+    "url": "https://opize.me",
+    "period": "2021년 ~ 2024년",
+    "updatedAt": "2024-03-13",
+    "curating": null,
+    "order": 2021,
+    "id": "opize",
+    "content": "Opize는 더욱 편리한 생산성을 위해 다양한 프로젝트를 제공하는 서비스입니다. Opize 웹사이트는 프로젝트들을 편리하게 관리할 수 있도록 중앙 대시보드와 Opize OAuth를 제공합니다.\n\n## 기술 및 업무\n### Frontend\n- NextJS를 이용한 SSR 프론트엔드\n- React-Query를 이용한 API 캐싱 관리\n- 구글 OAuth를 이용한 서비스 회원 관리\n- JWT을 이용한 인증 관리\n\nhttps://github.com/HyunsDev/opize-frontend\n\n### Backend\n- NestJS를 이용한 백엔드 구현\n- TypeORM과 MariaDB를 이용한 데이터베이스\n- Docker, Github Action을 이용한 CI/CD 구축\n- 자체 OAuth Server 기능 구현\n\nhttps://github.com/HyunsDev/opize-backend (비공개)"
+  },
+  {
+    "name": "Opize Design System",
+    "type": "code",
+    "description": "오피즈 디자인 시스템",
+    "thumbnailImage": "/items/opize-design-system/thumbnail.png",
+    "logoImage": "/items/opize-design-system/logo.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://design.opize.me",
     "urls": [
-      "https://github.com/HyunsDev/river-now",
-      "https://river-now.hyuns.dev/"
+      "https://design.opize.me"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2021년 ~ 2024년",
+    "updatedAt": "2024-03-13",
+    "curating": [
+      "secondary"
+    ],
+    "order": 2021,
+    "id": "opize-design-system",
+    "content": "Opize Design System은 디자인에 대한 고민 대신, 아이디어를 현실로 만들도록 도와주는 컴포넌트 라이브러리이자 디자인 시스템입니다.\n\n## 기술 및 업무\n---\n\n* React를 이용한 디자인 시스템 구축\n* Styled-components를 이용한 컴포넌트 스타일링\n* Storybook을 이용한 디자인 시스템 개발 환경 구축 및 문서화\n* Bable, Webpack을 이용하여 React 라이브러리 npm 배포\n* Ref와 Event를 이용한 HTML-like 컴포넌트 개발\n* 다른 태그로 변경할 수 있는 Polymorphic 컴포넌트 개발\n* React Context를 이용한 라이브러리 상태 관리\n* 컬러 팔레트를 이용한 라이트/다크 테마 구현\n\n<br>\n\nhttps://github.com/HyunsDev/opize-design-system\n\n## 관련 영상\n---\n* Opize-Design-System 개발 1번째 기록 - https://youtu.be/KLPOJ8ldnCc\n* Opize-Design-System 개발 2번째 기록 - https://youtu.be/LNmmRqpqBCc\n* Opize-Design-System 개발 3번째 기록 - https://youtu.be/rZ7X6zHR38M\n* Opize-Design-System 개발 4번째 기록 - https://youtu.be/japHd4xVEfM\n* Opize-Design-System 개발 5번째 기록 - https://youtu.be/2N87gPU5kIM"
   },
   {
-    "id": "project-gathering",
-    "name": "가위바위보 게더링",
-    "type": "project",
-    "description": "외주 프로젝트",
-    "thumbnailImage": "/items/project-gathering/thumbnail.png",
+    "name": "설챗",
+    "type": "product",
+    "description": "설치형 비공개 채팅 서비스",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2021년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/seol-chat/thumbnail.png",
+    "order": 2021,
+    "id": "seol-chat",
+    "content": ""
   },
   {
-    "id": "student-word-counter",
-    "name": "학생부/자소서 글자수 계산기",
-    "type": "project",
-    "description": "학생부/자소서 글자수 계산기",
-    "thumbnailImage": "/items/student-word-counter/thumbnail.png",
+    "name": "서산 Start",
+    "type": "product",
+    "description": "서산시 지역 관광지 서비스",
+    "logoImage": "/items/seosan-start/logo.png",
     "tags": [],
     "badges": [],
-    "url": "https://counter.hyuns.dev/",
+    "period": "2021년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/seosan-start/thumbnail.png",
+    "order": 2021,
+    "id": "seosan-start",
+    "content": ""
+  },
+  {
+    "name": "아두라이트",
+    "type": "product",
+    "order": 2020,
+    "description": "아두이노 라이트바",
+    "period": "2020년",
+    "thumbnailImage": "/items/ardulight/thumbnail.png",
+    "id": "ardulight",
+    "content": ""
+  },
+  {
+    "name": "마스크찾아줌",
+    "type": "product",
+    "description": "공공 데이터를 활용한 마스크 재고 확인 서비스",
+    "logoImage": "/items/findmask/logo.png",
+    "tags": [],
+    "badges": [],
+    "period": "2020년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/findmask/thumbnail.png",
+    "order": 2020,
+    "id": "findmask",
+    "content": ""
+  },
+  {
+    "name": "한줄한줄",
+    "type": "product",
+    "description": "한줄한줄 글쓰기",
+    "tags": [],
+    "badges": [],
+    "period": "2020년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/line/thumbnail.png",
+    "order": 2020,
+    "id": "line",
+    "content": ""
+  },
+  {
+    "name": "Notion Tools - 노션툴즈",
+    "type": "product",
+    "description": "노션을 위한 All in One 웹사이트 ",
+    "thumbnailImage": "/items/notion-tools/thumbnail.png",
+    "tags": [],
+    "badges": [],
+    "url": "https://www.notion-tools.com",
     "urls": [
-      "https://counter.hyuns.dev/"
+      "https://www.notion-tools.com"
     ],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2020년",
+    "updatedAt": "2024-03-13",
+    "order": 2020,
+    "id": "notion-tools",
+    "content": ""
   },
   {
-    "id": "toilet",
-    "name": "급할때 화장실",
-    "type": "project",
-    "description": "유어슈 루키톤",
-    "thumbnailImage": "/items/toilet/thumbnail.png",
+    "name": "내일뭐함",
+    "type": "product",
+    "description": "전국 초/중/고 학교 앱",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2020년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/whatto/thumbnail.png",
+    "order": 2020,
+    "id": "whatto",
+    "content": ""
   },
   {
-    "id": "resourcepack-uploader",
-    "name": "리로스팩 업로더",
-    "type": "project",
-    "description": "마인크레프트 하려고 만든 프로젝트",
-    "thumbnailImage": "/items/resourcepace-uploader/thumbnail.png",
+    "name": "내일서령",
+    "type": "product",
+    "description": "서령고등학교 앱",
     "tags": [],
     "badges": [],
-    "period": "",
-    "updatedAt": "2024-03-13"
+    "period": "2020년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/whatto-seoryeong/thumbnail.png",
+    "order": 2020,
+    "id": "whatto-seoryeong",
+    "content": ""
   },
   {
-    "name": "@hyunsdev/discord-webhook",
-    "type": "develop",
-    "description": "npm discord webhook library",
-    "urls": [
-      "https://www.npmjs.com/package/@hyunsdev/discord-webhook"
-    ],
-    "updatedAt": "2024-03-17",
-    "id": "discord-webhook"
-  },
-  {
-    "name": "숭실대학교 글로벌미디어학부",
-    "type": "activity",
-    "description": "숭실대학교 글로벌미디어학부 재학, 컴퓨터학부 복수 전공",
-    "period": "2023 ~ now",
-    "updatedAt": "2024-03-17",
-    "id": "soongsil-university"
-  },
-  {
-    "name": "IT 프로젝트",
-    "type": "activity",
-    "description": "숭실대학교 IT프로젝트 우수상",
-    "period": "2023",
-    "updatedAt": "2024-03-17",
-    "id": "award-it-project-2023"
-  },
-  {
-    "name": "2022 공공데이터 활용 서비스 개발 공모전 최우수상",
-    "type": "activity",
-    "description": "고등학교4학년팀",
-    "period": "2022",
-    "role": "프론트엔드",
-    "updatedAt": "2024-03-17",
-    "id": "award-open-data-2022"
-  },
-  {
-    "name": "2023 전국 대학생 SW 창업 아이디어톤 대상",
-    "type": "activity",
-    "description": "대상받으면호수공원입수",
-    "period": "2023",
-    "updatedAt": "2024-03-17",
-    "id": "award-sw-founded-ideaton-2023"
-  },
-  {
-    "type": "activity",
-    "name": "Happy Notion's Year Korea 2022 웨비나 발표",
-    "description": "노션과 구글 캘린더 연동하기",
-    "updatedAt": "2024-03-17",
-    "period": "2022",
-    "id": "notion-calendar2notion-youtube",
-    "content": "<iframe class='youtube-embed' src=\"https://www.youtube.com/embed/oFjA0U8421o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-  },
-  {
-    "name": "Opize 설립",
-    "type": "activity",
-    "description": "더욱 편리한 생산성 라이프를 위한 프로젝트, Opize를 설립(사업자 등록)",
-    "period": "2022.01",
-    "updatedAt": "2024-03-17",
-    "id": "opize-found",
-    "content": "고등학생 시절 취미로 시작했던 프로젝트를 더욱 많은 사람이 이용할 수 있는 서비스로 만들기 위해 설립한 회사입니다. 수익을 추구하는 일반적인 회사가 아닌, 저의 개발 능력을 제한없이 펼치기 위해 설립하였습니다."
-  },
-  {
-    "name": "unibook-renderer",
-    "type": "develop",
-    "description": "UniBook Renderer",
-    "period": "2024.03",
-    "url": "https://github.com/HyunsDev/unibook-renderer",
-    "urls": [
-      "https://github.com/HyunsDev/unibook-renderer"
-    ],
-    "badges": [
-      "isNew"
-    ],
-    "updatedAt": "2024-03-26",
-    "id": "unibook-renderer"
+    "name": "지금몇시계",
+    "type": "product",
+    "description": "바탕화면 속 조그만 아이",
+    "tags": [],
+    "badges": [],
+    "period": "2019년",
+    "updatedAt": "2024-03-13",
+    "thumbnailImage": "/items/whatclockisit/thumbnail.png",
+    "order": 2019,
+    "id": "whatclockisit",
+    "content": ""
   }
 ]
