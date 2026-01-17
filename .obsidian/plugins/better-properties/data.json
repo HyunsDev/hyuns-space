@@ -1,0 +1,441 @@
+{
+  "propertySettings": {
+    "#": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "id": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "name": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "type": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual",
+        "manualOptions": [
+          {
+            "value": "project",
+            "label": "",
+            "bgColor": "var(--better-properties-select-blue)"
+          },
+          {
+            "value": "activity",
+            "label": "",
+            "bgColor": "var(--better-properties-select-orange)"
+          },
+          {
+            "value": "develop",
+            "label": "",
+            "bgColor": "var(--better-properties-select-green)"
+          }
+        ]
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "description": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "logoimage": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "tags": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "badges": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "period": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "updatedat": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "thumbnailimage": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "url": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "urls": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "curating": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "role": {
+      "general": {
+        "icon": "",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    },
+    "order": {
+      "general": {
+        "icon": "lucide-sort-asc",
+        "hidden": false
+      },
+      "array": {},
+      "select": {
+        "useDefaultStyle": false,
+        "optionsType": "manual"
+      },
+      "multiselect": {
+        "optionsType": "manual"
+      },
+      "toggle": {},
+      "title": {},
+      "markdown": {},
+      "created": {},
+      "object": {},
+      "color": {},
+      "rating": {},
+      "relation": {},
+      "datecustom": {},
+      "slider": {},
+      "time": {},
+      "numeric": {}
+    }
+  },
+  "confirmPropertySettingsReset": true,
+  "confirmPropertyDelete": true,
+  "defaultLabelWidth": "",
+  "hiddenPropertyTypes": []
+}
