@@ -1,5 +1,6 @@
-import { useTheme } from "@/components/themeProvider";
 import { useEffect, useRef } from "react";
+
+import { useTheme } from "@/components/themeProvider";
 
 class GradientAnimation {
   cnv: HTMLCanvasElement;

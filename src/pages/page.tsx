@@ -1,11 +1,11 @@
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { BackgroundCanvas } from "@/containers/main/BackgroundCanvas/BackgroundCanvas";
 import { LoadingOverlay } from "@/containers/main/LoadingOverlay/LoadingOverlay";
-import { MainHeader } from "@/containers/share/header/MainHeader";
 import { CurationSection } from "@/containers/main/sections/curation/Curation.section";
 import { MainDescriptionSection } from "@/containers/main/sections/description/description";
 import { MainHeroSection } from "@/containers/main/sections/hero/hero.section";
 import { MainPreviewSection } from "@/containers/main/sections/preview/preview.section";
+import { MainHeader } from "@/containers/share/header/MainHeader";
 
 export function MainPage() {
   return (

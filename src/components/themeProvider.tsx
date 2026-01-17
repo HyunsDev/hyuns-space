@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "dark" | "light" | "system";
@@ -45,6 +44,7 @@ export function ThemeProvider({
         ? "dark"
         : "light";
 
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCurrentTheme(systemTheme);
       root.classList.add(systemTheme);
       return;

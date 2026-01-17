@@ -1,15 +1,17 @@
-import { MainHeader } from "@/containers/share/header/MainHeader";
 import { useEffect, useState } from "react";
+
 import axios from "axios";
+
+import { Button } from "@/components/ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { ItemList } from "@/containers/dev/ItemList/ItemList";
-import { Button } from "@/components/ui/button";
-import { useDevItems } from "@/hooks/useDevItems";
 import { CreateItemDialog } from "@/containers/dialogs/CreateItemDialog";
+import { MainHeader } from "@/containers/share/header/MainHeader";
+import { useDevItems } from "@/hooks/useDevItems";
 
 function ServerConnectBadge() {
   const [connectStatus, setConnectStatus] = useState<
@@ -21,7 +23,7 @@ function ServerConnectBadge() {
       try {
         await axios.get("http://localhost:3000");
         setConnectStatus("connected");
-      } catch (e) {
+      } catch {
         setConnectStatus("disconnected");
       }
     })();

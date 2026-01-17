@@ -1,7 +1,9 @@
+import { useEffect } from "react";
+
+import { useNavigate } from "react-router-dom";
+
 import { PageContainer } from "@/components/PageContainer/PageContainer";
 import { LoadingOverlay } from "@/containers/main/LoadingOverlay/LoadingOverlay";
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 export function NotFoundPage() {
   const navigate = useNavigate();

@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
 import { ReactNode } from "react";
+
+import { motion } from "framer-motion";
 
 function TextRow({ text, delay }: { text: ReactNode; delay: number }) {
   return (

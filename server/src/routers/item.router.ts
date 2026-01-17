@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Router from "koa-router";
 import fsPromise from "fs/promises";
 import path from "path";
+
+import Router from "koa-router";
 
 export const itemRouter = new Router();
 
@@ -33,7 +34,7 @@ itemRouter.post("/items", async (ctx) => {
 });
 
 itemRouter.get("/items/:itemId", async (ctx) => {
-  const itemId = ctx.params.itemId;
+  const {itemId} = ctx.params;
 
   const file = await fsPromise.readFile(
     path.join(__dirname, "../../../src/data/items/data.json"),

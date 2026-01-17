@@ -1,6 +1,7 @@
-import { useDevItem } from "@/hooks/useDevItem";
 import { UpdateRow } from "./UpdateRow";
+
 import { Textarea } from "@/components/ui/textarea";
+import { useDevItem } from "@/hooks/useDevItem";
 
 export function UpdateDescription() {
   const { editingItem, setEditingItem } = useDevItem();

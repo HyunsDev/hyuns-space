@@ -1,9 +1,11 @@
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
+import { ItemBadge } from "../ItemBadge/ItemBadge";
+
+import { useTheme } from "@/components/themeProvider";
 import { Item, itemTypeMap } from "@/data/items/item.type";
 import { cn } from "@/libs/utils";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { ItemBadge } from "../ItemBadge/ItemBadge";
-import { useTheme } from "@/components/themeProvider";
 
 export function SeeAllCard({
   className,

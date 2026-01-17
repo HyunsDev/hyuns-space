@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
 import { DoubleArrowDownIcon } from "@radix-ui/react-icons";
+import { motion } from "framer-motion";
 
 import HyunsLogo from "@/assets/hyuns.png";
 
@@ -46,7 +46,7 @@ export function AboutHeroSection() {
             <a
               href="https://github.com/HyunsDev"
               className="text-muted-foreground hover:underline"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github
             </a>{" "}
@@ -54,7 +54,7 @@ export function AboutHeroSection() {
             <a
               href="https://instagram.com/hyunsdev"
               className="text-muted-foreground hover:underline"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Instagram
             </a>

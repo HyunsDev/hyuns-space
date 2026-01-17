@@ -1,20 +1,22 @@
+import { useNavigate } from "react-router-dom";
+
+import { UpdateBadges } from "./rows/UpdateBadge";
+import { UpdateContent } from "./rows/UpdateContent";
+import { UpdateCurating } from "./rows/UpdateCurating";
+import { UpdateDescription } from "./rows/UpdateDescription";
+import { UpdatePeriod } from "./rows/UpdatePeriod";
+import { UpdateRole } from "./rows/UpdateRole";
+import { UpdateStacks } from "./rows/UpdateStacks";
+import { UpdateTitle } from "./rows/UpdateTitle";
+import { UpdateType } from "./rows/UpdateType";
+import { UpdateUpdatedAt } from "./rows/UpdateUpdatedAt";
+import { UpdateURL } from "./rows/UpdateURL";
+import { UpdateURLs } from "./rows/UpdateURLs";
+
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { MainHeader } from "@/containers/share/header/MainHeader";
 import { useDevItem } from "@/hooks/useDevItem";
-import { useNavigate } from "react-router-dom";
-import { UpdateTitle } from "./rows/UpdateTitle";
-import { UpdateType } from "./rows/UpdateType";
-import { UpdateDescription } from "./rows/UpdateDescription";
-import { UpdateURL } from "./rows/UpdateURL";
-import { UpdateURLs } from "./rows/UpdateURLs";
-import { UpdatePeriod } from "./rows/UpdatePeriod";
-import { UpdateRole } from "./rows/UpdateRole";
-import { UpdateStacks } from "./rows/UpdateStacks";
-import { UpdateBadges } from "./rows/UpdateBadge";
-import { UpdateContent } from "./rows/UpdateContent";
-import { UpdateUpdatedAt } from "./rows/UpdateUpdatedAt";
-import { UpdateCurating } from "./rows/UpdateCurating";
 
 function Back() {
   const navigate = useNavigate();

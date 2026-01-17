@@ -1,10 +1,13 @@
+import { useEffect, useState } from "react";
+
+import { DesktopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
+
 import { useTheme } from "@/components/themeProvider";
 import { Title } from "@/components/title/Title";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/libs/utils";
-import { DesktopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons";
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
 
 function ThemeButton() {
   const { setTheme, theme } = useTheme();

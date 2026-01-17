@@ -1,5 +1,6 @@
-import { Item } from "@/data/items/item.type";
 import { Endpoint } from "endpoint-client";
+
+import { Item } from "@/data/items/item.type";
 
 /**
  * GET /

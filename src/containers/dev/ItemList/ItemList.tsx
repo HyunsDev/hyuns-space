@@ -1,3 +1,6 @@
+import { DotsHorizontalIcon } from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
+
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -16,8 +19,6 @@ import {
 } from "@/components/ui/table";
 import { Item } from "@/data/items/item.type";
 import { useDevItems } from "@/hooks/useDevItems";
-import { DotsHorizontalIcon } from "@radix-ui/react-icons";
-import { Link } from "react-router-dom";
 
 function ItemRow({ item }: { item: Item }) {
   return (
