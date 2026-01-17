@@ -1,6 +1,7 @@
-import { useDevItem } from "@/hooks/useDevItem";
 import { UpdateRow } from "./UpdateRow";
+
 import { Textarea } from "@/components/ui/textarea";
+import { useDevItem } from "@/hooks/useDevItem";
 import { useDevItems } from "@/hooks/useDevItems";
 
 export function UpdateStacks() {

@@ -1,3 +1,9 @@
+/* eslint-disable react-hooks/purity */
+import Markdown from "react-markdown";
+import { Link } from "react-router-dom";
+import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
+
 import { ItemBadge } from "@/components/Item/ItemBadge/ItemBadge";
 import { ItemCardGrid } from "@/components/Item/ItemCard/ItemCardGrid";
 import { PageContainer } from "@/components/PageContainer/PageContainer";
@@ -6,10 +12,6 @@ import { Item } from "@/data/items/item.type";
 import { useIsDevMode } from "@/hooks/useIsDevMode";
 import { useItem } from "@/hooks/useItem";
 import { useItems } from "@/hooks/useItems";
-import Markdown from "react-markdown";
-import { Link } from "react-router-dom";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
 
 function PageThumbnail({ item }: { item: Item }) {
   return (
@@ -36,7 +38,12 @@ function PageDescription({ item }: { item: Item }) {
         )}
         <div className="font-medium text-4xl">
           {item.url ? (
-            <a href={item.url} target="_blank" className="hover:underline">
+            <a
+              href={item.url}
+              target="_blank"
+              className="hover:underline"
+              rel="noreferrer"
+            >
               {item.name}
             </a>
           ) : (
@@ -51,14 +58,29 @@ function PageDescription({ item }: { item: Item }) {
             <span>활동기간</span>
             <span>{item.period}</span>
           </div>
-          <div className="flex justify-between">
+          {/* <div className="flex justify-between">
             <span>내용 업데이트</span>
             <span>{item.updatedAt}</span>
-          </div>
+          </div> */}
           {item.role && (
             <div className="flex justify-between">
               <span>역할</span>
               <span>{item.role}</span>
+            </div>
+          )}
+          {item.repositoryUrl && (
+            <div className="flex justify-between">
+              <span>레포지토리</span>
+              <a
+                href={item.repositoryUrl}
+                className="underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {item.repositoryUrl
+                  .replace("https://github.com/", "")
+                  .toLowerCase()}
+              </a>
             </div>
           )}
           {item.urls && (
@@ -71,6 +93,7 @@ function PageDescription({ item }: { item: Item }) {
                     key={index}
                     className="underline"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {url}
                   </a>

@@ -1,0 +1,76 @@
+.theme-dark {
+  --background-primary: #1f1f1f;
+  --background-primary-alt: #2b2b2b;
+  --background-secondary: #181818;
+  --background-secondary-alt: #181818;
+
+  --modal-sidebar-background: var(--background-secondary);
+  --setting-items-background: transparent;
+
+  --color-base-55: #8c8c8c;
+  --text-faint: var(--color-base-55);
+
+  --code-normal: var(--color-base-70);
+  --code-background: var(--background-primary-alt);
+}
+
+.theme-light {
+  --background-primary-alt: #f4f4f4;
+
+  --color-base-55: #8c8c8c;
+  --text-faint: var(--color-base-55);
+
+  --code-normal: var(--color-base-70);
+  --code-background: var(--background-primary-alt);
+}
+
+.theme-dark .empty-state-action {
+  color: var(--text-muted);
+}
+
+.tree-item-self.is-clickable {
+  --cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.theme-dark ::-webkit-scrollbar-thumb {
+  background: var(--color-base-40);
+  border-radius: 999px;
+
+  box-sizing: content-box;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.theme-light ::-webkit-scrollbar-thumb {
+  background: var(--color-base-30);
+  border-radius: 999px;
+
+  box-sizing: content-box;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.notion-dark-theme .notion-sidebar-container {
+  background-color: #181818 !important;
+}
+
+.notion-dark-theme .notion-frame {
+  background-color: #1f1f1f !important;
+}
+
+body {
+  --gm3-sys-color-background: #181818;
+}

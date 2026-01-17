@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
 import { ReactNode } from "react";
+
+import { motion } from "framer-motion";
 
 function ContactRow({
   label,
@@ -30,7 +31,7 @@ function ContactRow({
         <a
           className="text-muted-foreground bg-muted px-1 rounded font-mono text-sm underline"
           href={href}
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           {text}
         </a>

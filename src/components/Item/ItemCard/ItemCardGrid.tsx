@@ -1,5 +1,6 @@
-import { Item } from "@/data/items/item.type";
 import { ItemCard, SeeAllCard } from "./ItemCard";
+
+import { Item } from "@/data/items/item.type";
 
 export function ItemCardGrid({
   items,
