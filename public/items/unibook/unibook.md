@@ -12,7 +12,7 @@ badges:
 url: https://unibook.co
 urls:
   - https://unibook.co
-period: 2021 ~ now
+period: 2024년 ~ now
 updatedAt: 2024-03-18
 curating:
   - primary

@@ -11,13 +11,14 @@
             "id": "8b8c3e84815a1754",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "public/items/items.base",
-                "viewName": "테이블"
+                "file": "public/items/unibook/unibook.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "items"
+              "icon": "lucide-file",
+              "title": "unibook"
             }
           }
         ]
@@ -93,10 +94,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "public/items/items.base"
+                "file": "public/items/unibook/unibook.md"
               },
               "icon": "lucide-info",
-              "title": "items 의 파일 속성"
+              "title": "unibook 의 파일 속성"
             }
           },
           {
@@ -196,8 +197,8 @@
   },
   "active": "8b8c3e84815a1754",
   "lastOpenFiles": [
-    "public/items/month-end-settlement/month-end-settlement.md",
     "public/items/items.base",
+    "public/items/month-end-settlement/month-end-settlement.md",
     "public/items/monty-hall-problem/monty-hall-problem.md",
     "public/items/discord-webhook/discord-webhook.md",
     "public/items/endpoint-client/endpoint-client.md",
