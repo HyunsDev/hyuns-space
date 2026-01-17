@@ -12,11 +12,11 @@ curating:
   - secondary
 role:
 logoImage: items/board-playground/logo.png
-url:
+url: https://github.com/HyunsDev/board-playground
 urls:
 updatedAt:
 thumbnailImage: items/board-playground/thumbnail.png
-repositoryUrl:
+repositoryUrl: https://github.com/HyunsDev/board-playground
 ---
 ## ⚠️ Working In Process
 
