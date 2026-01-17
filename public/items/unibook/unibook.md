@@ -3,8 +3,8 @@ id: unibook
 name: UniBook 유니북
 type: project
 description: 새로운 대학 교재의 세계
-thumbnailImage: /items/unibook/thumbnail.png
-logoImage: /items/unibook/logo.png
+thumbnailImage: items/unibook/thumbnail.png
+logoImage: items/unibook/logo.png
 tags: []
 badges:
   - founded
@@ -14,10 +14,11 @@ url: https://unibook.co
 urls:
   - https://unibook.co
 period: 2021 ~ now
-updatedAt: '2024-03-18'
+updatedAt: 2024-03-18
 curating:
   - primary
 role: 기획, UX/UI, 백엔드, 프론트엔드, 출판/편집
+order: 2024
 ---
 
 UniBook은 마크다운을 기반으로 대학 교재 등의 책을 EBook 형태로 판매하는 서비스입니다.

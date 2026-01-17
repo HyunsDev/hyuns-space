@@ -1,0 +1,61 @@
+filters:
+  and:
+    - file.inFolder("public/items")
+    - file.ext == "md"
+views:
+  - type: table
+    name: 테이블
+    order:
+      - file.name
+      - name
+      - type
+      - order
+      - description
+      - badges
+      - period
+      - tags
+      - curating
+      - role
+      - logoImage
+      - url
+      - urls
+      - updatedAt
+    sort:
+      - property: order
+        direction: DESC
+      - property: thumbnailImage
+        direction: ASC
+    columnSize:
+      note.name: 253
+      note.type: 73
+      note.order: 79
+      note.badges: 118
+      note.period: 150
+  - type: cards
+    name: 종류 별
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - name
+    sort:
+      - property: order
+        direction: DESC
+    image: note.thumbnailImage
+    imageAspectRatio: 0.55
+    cardSize: 210
+  - type: cards
+    name: 큐레이션
+    groupBy:
+      property: curating
+      direction: ASC
+    order:
+      - file.name
+      - name
+    sort:
+      - property: order
+        direction: DESC
+    image: note.thumbnailImage
+    imageAspectRatio: 0.55
+    cardSize: 210

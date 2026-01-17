@@ -3,15 +3,16 @@ id: opize
 name: Opize 오피즈
 type: project
 description: 더욱 편리한 생산성 라이프 프로젝트
-thumbnailImage: /items/opize/thumbnail.png
-logoImage: /items/opize/logo.png
+thumbnailImage: items/opize/thumbnail.png
+logoImage: items/opize/logo.png
 tags: []
 badges: []
 url: https://opize.me
-period: 2021 ~ now
-updatedAt: '2024-03-13'
+period: 2021년 ~ 2024년
+updatedAt: 2024-03-13
 curating:
   - secondary
+order: 2021
 ---
 
 Opize는 더욱 편리한 생산성을 위해 다양한 프로젝트를 제공하는 서비스입니다. Opize 웹사이트는 프로젝트들을 편리하게 관리할 수 있도록 중앙 대시보드와 Opize OAuth를 제공합니다.

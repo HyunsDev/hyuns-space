@@ -3,22 +3,22 @@ id: calendar2notion
 name: Calendar2Notion
 type: project
 description: Notion에 일정을 추가하는 웹앱
-thumbnailImage: /items/calendar2notion/thumbnail.png
-logoImage: /items/calendar2notion/logo.png
+thumbnailImage: items/calendar2notion/thumbnail.png
+logoImage: items/calendar2notion/logo.png
 tags:
   - React
   - TypeScript
-  - Notion API
 badges:
   - founded
 url: https://calendar2notion.opize.me
 urls:
   - https://calendar2notion.opize.me
-period: 2021.08 ~ 2024.03
-updatedAt: '2024-03-18'
+period: 2021.08 ~ 2022.03
+updatedAt: 2024-03-18
 curating:
   - primary
 role: 1인 개발
+order: 2021
 ---
 
 Calendarn2notion은 노션과 구글 캘린더를 연결하여 양방향 동기화를 가능하게 만들어주는 서비스입니다. 2023.07 기준으로 12000명 이상의 가입자가 이용하고 있습니다.

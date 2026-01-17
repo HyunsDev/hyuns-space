@@ -5,7 +5,9 @@ type: project
 description: 대학생 커뮤니티
 tags: []
 badges: []
-period: ''
-updatedAt: '2024-03-13'
+period: 2023년
+updatedAt: 2024-03-13
+thumbnailImage: items/scrum/thumbnail.png
+order: 2023
 ---
 

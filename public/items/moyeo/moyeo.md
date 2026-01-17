@@ -3,17 +3,18 @@ id: moyeo
 name: Moyeo 모여!
 type: project
 description: 대학생을 위한 모여!
-thumbnailImage: /items/moyeo/thumbnail.png
-logoImage: /items/moyeo/logo.png
+thumbnailImage: items/moyeo/thumbnail.png
+logoImage: items/moyeo/logo.png
 tags: []
 badges: []
 url: https://moyeo.me
 urls:
   - https://moyeo.me
-period: 2024.05 ~ 2023.11
-updatedAt: '2024-03-13'
+period: 2024.05 ~ 2024.11
+updatedAt: 2024-03-13
 curating:
   - secondary
+order: 2023
 ---
 
 <iframe class='youtube-embed' src="https://www.youtube.com/embed/F2LYQ25JwJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

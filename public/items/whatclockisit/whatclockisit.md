@@ -5,7 +5,9 @@ type: project
 description: 바탕화면 속 조그만 아이
 tags: []
 badges: []
-period: ''
-updatedAt: '2024-03-13'
+period: 2019년
+updatedAt: 2024-03-13
+thumbnailImage: items/whatclockisit/thumbnail.png
+order: 2019
 ---
 
